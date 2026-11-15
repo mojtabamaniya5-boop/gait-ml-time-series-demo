@@ -1,0 +1,191 @@
+{
+  "n_trials": 48,
+  "n_subjects": 12,
+  "n_features": 16,
+  "cv": "GroupKFold(n_splits=4) by subject",
+  "features": [
+    "cadence_spm",
+    "mean_stride_time_s",
+    "stride_time_cv",
+    "step_time_asymmetry",
+    "speed_median_m_s",
+    "amp_asymmetry_az",
+    "sma_acc",
+    "ax_rms",
+    "ay_rms",
+    "az_rms",
+    "gx_rms",
+    "gy_rms",
+    "gz_rms",
+    "az_jerk_rms",
+    "gy_jerk_rms",
+    "az_dom_freq_hz"
+  ],
+  "models": {
+    "logistic_regression": {
+      "per_fold": [
+        {
+          "roc_auc": 1.0,
+          "accuracy": 1.0,
+          "brier": 0.002519504923236211,
+          "sensitivity": 1.0,
+          "specificity": 1.0,
+          "n_test": 12,
+          "fold": 0,
+          "test_subjects": [
+            "S04",
+            "S08",
+            "S12"
+          ]
+        },
+        {
+          "roc_auc": 1.0,
+          "accuracy": 0.9166666666666666,
+          "brier": 0.032455081560649766,
+          "sensitivity": 0.875,
+          "specificity": 1.0,
+          "n_test": 12,
+          "fold": 1,
+          "test_subjects": [
+            "S03",
+            "S07",
+            "S11"
+          ]
+        },
+        {
+          "roc_auc": 1.0,
+          "accuracy": 1.0,
+          "brier": 0.035398701438374765,
+          "sensitivity": 1.0,
+          "specificity": 1.0,
+          "n_test": 12,
+          "fold": 2,
+          "test_subjects": [
+            "S02",
+            "S06",
+            "S10"
+          ]
+        },
+        {
+          "roc_auc": 1.0,
+          "accuracy": 0.75,
+          "brier": 0.11291661226510757,
+          "sensitivity": 1.0,
+          "specificity": 0.625,
+          "n_test": 12,
+          "fold": 3,
+          "test_subjects": [
+            "S01",
+            "S05",
+            "S09"
+          ]
+        }
+      ],
+      "aggregate": {
+        "roc_auc": {
+          "mean": 1.0,
+          "sd": 0.0
+        },
+        "accuracy": {
+          "mean": 0.9167,
+          "sd": 0.1179
+        },
+        "brier": {
+          "mean": 0.0458,
+          "sd": 0.0471
+        },
+        "sensitivity": {
+          "mean": 0.9688,
+          "sd": 0.0625
+        },
+        "specificity": {
+          "mean": 0.9062,
+          "sd": 0.1875
+        }
+      }
+    },
+    "random_forest": {
+      "per_fold": [
+        {
+          "roc_auc": 1.0,
+          "accuracy": 1.0,
+          "brier": 0.006022,
+          "sensitivity": 1.0,
+          "specificity": 1.0,
+          "n_test": 12,
+          "fold": 0,
+          "test_subjects": [
+            "S04",
+            "S08",
+            "S12"
+          ]
+        },
+        {
+          "roc_auc": 1.0,
+          "accuracy": 1.0,
+          "brier": 0.0071990000000000005,
+          "sensitivity": 1.0,
+          "specificity": 1.0,
+          "n_test": 12,
+          "fold": 1,
+          "test_subjects": [
+            "S03",
+            "S07",
+            "S11"
+          ]
+        },
+        {
+          "roc_auc": 1.0,
+          "accuracy": 1.0,
+          "brier": 0.014020333333333336,
+          "sensitivity": 1.0,
+          "specificity": 1.0,
+          "n_test": 12,
+          "fold": 2,
+          "test_subjects": [
+            "S02",
+            "S06",
+            "S10"
+          ]
+        },
+        {
+          "roc_auc": 1.0,
+          "accuracy": 0.8333333333333334,
+          "brier": 0.13726666666666665,
+          "sensitivity": 1.0,
+          "specificity": 0.75,
+          "n_test": 12,
+          "fold": 3,
+          "test_subjects": [
+            "S01",
+            "S05",
+            "S09"
+          ]
+        }
+      ],
+      "aggregate": {
+        "roc_auc": {
+          "mean": 1.0,
+          "sd": 0.0
+        },
+        "accuracy": {
+          "mean": 0.9583,
+          "sd": 0.0833
+        },
+        "brier": {
+          "mean": 0.0411,
+          "sd": 0.0642
+        },
+        "sensitivity": {
+          "mean": 1.0,
+          "sd": 0.0
+        },
+        "specificity": {
+          "mean": 0.9375,
+          "sd": 0.125
+        }
+      }
+    }
+  },
+  "best_model": "logistic_regression"
+}

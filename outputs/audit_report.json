@@ -1,0 +1,3793 @@
+{
+  "n_trials": 48,
+  "n_subjects": 12,
+  "sampling_rate_nominal_hz": 100.0,
+  "trials": [
+    {
+      "file": "S01_trial_1.csv",
+      "subject_id": "S01",
+      "condition": 0,
+      "channels_present": [
+        "ax",
+        "ay",
+        "az",
+        "gx",
+        "gy",
+        "gz",
+        "timestamp_s",
+        "heel_strike",
+        "foot"
+      ],
+      "channels_missing": [],
+      "n_rows": 2416,
+      "sampling_rate_hz": 100.0,
+      "duration_s": 24.15,
+      "has_foot_contacts": true,
+      "sensor_position_note": "trunk-mounted IMU (vertical az, 2 peaks/stride)",
+      "n_channels_synced": 6,
+      "n_nan": {
+        "ax": 0,
+        "ay": 0,
+        "az": 0,
+        "gx": 0,
+        "gy": 0,
+        "gz": 0
+      },
+      "n_timestamp_gaps": 0,
+      "max_gap_s": 0.0,
+      "n_nonmonotonic": 0,
+      "n_heel_strikes": 40,
+      "n_left": 20,
+      "n_right": 20,
+      "mean_stride_time_s": 1.205,
+      "stride_time_cv": 0.0271,
+      "cadence_spm": 99.6,
+      "stride_reliability": "reliable",
+      "speed_median_m_s": 1.103,
+      "speed_iqr_m_s": 0.05,
+      "speed_strides_ok": 38,
+      "speed_plausible": true,
+      "signal_quality": {
+        "ax": {
+          "hf_energy_share": 0.1458,
+          "drift_per_s": -0.00097,
+          "n_outliers_z5": 3
+        },
+        "ay": {
+          "hf_energy_share": 0.0139,
+          "drift_per_s": 0.00046,
+          "n_outliers_z5": 0
+        },
+        "az": {
+          "hf_energy_share": 0.0021,
+          "drift_per_s": 0.0124,
+          "n_outliers_z5": 0
+        },
+        "gx": {
+          "hf_energy_share": 0.0109,
+          "drift_per_s": -0.00087,
+          "n_outliers_z5": 0
+        },
+        "gy": {
+          "hf_energy_share": 0.0037,
+          "drift_per_s": -0.00154,
+          "n_outliers_z5": 0
+        },
+        "gz": {
+          "hf_energy_share": 0.0191,
+          "drift_per_s": -0.00023,
+          "n_outliers_z5": 0
+        }
+      },
+      "asymmetry_LR": 0.0017
+    },
+    {
+      "file": "S01_trial_2.csv",
+      "subject_id": "S01",
+      "condition": 0,
+      "channels_present": [
+        "ax",
+        "ay",
+        "az",
+        "gx",
+        "gy",
+        "gz",
+        "timestamp_s",
+        "heel_strike",
+        "foot"
+      ],
+      "channels_missing": [],
+      "n_rows": 2428,
+      "sampling_rate_hz": 100.0,
+      "duration_s": 24.27,
+      "has_foot_contacts": true,
+      "sensor_position_note": "trunk-mounted IMU (vertical az, 2 peaks/stride)",
+      "n_channels_synced": 6,
+      "n_nan": {
+        "ax": 0,
+        "ay": 0,
+        "az": 0,
+        "gx": 0,
+        "gy": 0,
+        "gz": 0
+      },
+      "n_timestamp_gaps": 0,
+      "max_gap_s": 0.0,
+      "n_nonmonotonic": 0,
+      "n_heel_strikes": 40,
+      "n_left": 20,
+      "n_right": 20,
+      "mean_stride_time_s": 1.217,
+      "stride_time_cv": 0.0297,
+      "cadence_spm": 98.6,
+      "stride_reliability": "reliable",
+      "speed_median_m_s": 1.106,
+      "speed_iqr_m_s": 0.047,
+      "speed_strides_ok": 38,
+      "speed_plausible": true,
+      "signal_quality": {
+        "ax": {
+          "hf_energy_share": 0.1301,
+          "drift_per_s": -0.00098,
+          "n_outliers_z5": 2
+        },
+        "ay": {
+          "hf_energy_share": 0.0144,
+          "drift_per_s": 0.00071,
+          "n_outliers_z5": 0
+        },
+        "az": {
+          "hf_energy_share": 0.0021,
+          "drift_per_s": 0.02247,
+          "n_outliers_z5": 0
+        },
+        "gx": {
+          "hf_energy_share": 0.01,
+          "drift_per_s": -0.00094,
+          "n_outliers_z5": 0
+        },
+        "gy": {
+          "hf_energy_share": 0.0039,
+          "drift_per_s": -0.00157,
+          "n_outliers_z5": 0
+        },
+        "gz": {
+          "hf_energy_share": 0.0186,
+          "drift_per_s": -0.00061,
+          "n_outliers_z5": 0
+        }
+      },
+      "asymmetry_LR": 0.0013
+    },
+    {
+      "file": "S01_trial_3.csv",
+      "subject_id": "S01",
+      "condition": 0,
+      "channels_present": [
+        "ax",
+        "ay",
+        "az",
+        "gx",
+        "gy",
+        "gz",
+        "timestamp_s",
+        "heel_strike",
+        "foot"
+      ],
+      "channels_missing": [],
+      "n_rows": 2425,
+      "sampling_rate_hz": 100.0,
+      "duration_s": 24.24,
+      "has_foot_contacts": true,
+      "sensor_position_note": "trunk-mounted IMU (vertical az, 2 peaks/stride)",
+      "n_channels_synced": 6,
+      "n_nan": {
+        "ax": 0,
+        "ay": 0,
+        "az": 0,
+        "gx": 0,
+        "gy": 0,
+        "gz": 0
+      },
+      "n_timestamp_gaps": 0,
+      "max_gap_s": 0.0,
+      "n_nonmonotonic": 0,
+      "n_heel_strikes": 40,
+      "n_left": 20,
+      "n_right": 20,
+      "mean_stride_time_s": 1.208,
+      "stride_time_cv": 0.0393,
+      "cadence_spm": 99.3,
+      "stride_reliability": "reliable",
+      "speed_median_m_s": 1.105,
+      "speed_iqr_m_s": 0.051,
+      "speed_strides_ok": 38,
+      "speed_plausible": true,
+      "signal_quality": {
+        "ax": {
+          "hf_energy_share": 0.1649,
+          "drift_per_s": -0.00118,
+          "n_outliers_z5": 5
+        },
+        "ay": {
+          "hf_energy_share": 0.0154,
+          "drift_per_s": 0.00079,
+          "n_outliers_z5": 0
+        },
+        "az": {
+          "hf_energy_share": 0.0021,
+          "drift_per_s": 0.00863,
+          "n_outliers_z5": 0
+        },
+        "gx": {
+          "hf_energy_share": 0.011,
+          "drift_per_s": -0.00094,
+          "n_outliers_z5": 0
+        },
+        "gy": {
+          "hf_energy_share": 0.0041,
+          "drift_per_s": -0.00127,
+          "n_outliers_z5": 0
+        },
+        "gz": {
+          "hf_energy_share": 0.0187,
+          "drift_per_s": 1e-05,
+          "n_outliers_z5": 0
+        }
+      },
+      "asymmetry_LR": 0.0022
+    },
+    {
+      "file": "S01_trial_4.csv",
+      "subject_id": "S01",
+      "condition": 0,
+      "channels_present": [
+        "ax",
+        "ay",
+        "az",
+        "gx",
+        "gy",
+        "gz",
+        "timestamp_s",
+        "heel_strike",
+        "foot"
+      ],
+      "channels_missing": [],
+      "n_rows": 2460,
+      "sampling_rate_hz": 100.0,
+      "duration_s": 24.59,
+      "has_foot_contacts": true,
+      "sensor_position_note": "trunk-mounted IMU (vertical az, 2 peaks/stride)",
+      "n_channels_synced": 6,
+      "n_nan": {
+        "ax": 0,
+        "ay": 0,
+        "az": 0,
+        "gx": 0,
+        "gy": 0,
+        "gz": 0
+      },
+      "n_timestamp_gaps": 0,
+      "max_gap_s": 0.0,
+      "n_nonmonotonic": 0,
+      "n_heel_strikes": 40,
+      "n_left": 20,
+      "n_right": 20,
+      "mean_stride_time_s": 1.232,
+      "stride_time_cv": 0.0254,
+      "cadence_spm": 97.4,
+      "stride_reliability": "reliable",
+      "speed_median_m_s": 1.103,
+      "speed_iqr_m_s": 0.046,
+      "speed_strides_ok": 38,
+      "speed_plausible": true,
+      "signal_quality": {
+        "ax": {
+          "hf_energy_share": 0.1718,
+          "drift_per_s": -0.0019,
+          "n_outliers_z5": 4
+        },
+        "ay": {
+          "hf_energy_share": 0.0146,
+          "drift_per_s": 0.00061,
+          "n_outliers_z5": 0
+        },
+        "az": {
+          "hf_energy_share": 0.002,
+          "drift_per_s": 0.01194,
+          "n_outliers_z5": 0
+        },
+        "gx": {
+          "hf_energy_share": 0.0104,
+          "drift_per_s": -0.00123,
+          "n_outliers_z5": 0
+        },
+        "gy": {
+          "hf_energy_share": 0.0035,
+          "drift_per_s": -0.00141,
+          "n_outliers_z5": 0
+        },
+        "gz": {
+          "hf_energy_share": 0.0198,
+          "drift_per_s": -0.00035,
+          "n_outliers_z5": 0
+        }
+      },
+      "asymmetry_LR": 0.0009
+    },
+    {
+      "file": "S02_trial_1.csv",
+      "subject_id": "S02",
+      "condition": 0,
+      "channels_present": [
+        "ax",
+        "ay",
+        "az",
+        "gx",
+        "gy",
+        "gz",
+        "timestamp_s",
+        "heel_strike",
+        "foot"
+      ],
+      "channels_missing": [],
+      "n_rows": 2161,
+      "sampling_rate_hz": 100.0,
+      "duration_s": 21.6,
+      "has_foot_contacts": true,
+      "sensor_position_note": "trunk-mounted IMU (vertical az, 2 peaks/stride)",
+      "n_channels_synced": 6,
+      "n_nan": {
+        "ax": 0,
+        "ay": 0,
+        "az": 0,
+        "gx": 0,
+        "gy": 0,
+        "gz": 0
+      },
+      "n_timestamp_gaps": 0,
+      "max_gap_s": 0.0,
+      "n_nonmonotonic": 0,
+      "n_heel_strikes": 40,
+      "n_left": 20,
+      "n_right": 20,
+      "mean_stride_time_s": 1.08,
+      "stride_time_cv": 0.0292,
+      "cadence_spm": 111.1,
+      "stride_reliability": "reliable",
+      "speed_median_m_s": 1.071,
+      "speed_iqr_m_s": 0.047,
+      "speed_strides_ok": 38,
+      "speed_plausible": true,
+      "signal_quality": {
+        "ax": {
+          "hf_energy_share": 0.1877,
+          "drift_per_s": -0.0011,
+          "n_outliers_z5": 5
+        },
+        "ay": {
+          "hf_energy_share": 0.0149,
+          "drift_per_s": 0.00109,
+          "n_outliers_z5": 0
+        },
+        "az": {
+          "hf_energy_share": 0.0022,
+          "drift_per_s": -0.00501,
+          "n_outliers_z5": 0
+        },
+        "gx": {
+          "hf_energy_share": 0.01,
+          "drift_per_s": -0.00095,
+          "n_outliers_z5": 0
+        },
+        "gy": {
+          "hf_energy_share": 0.004,
+          "drift_per_s": -0.00202,
+          "n_outliers_z5": 0
+        },
+        "gz": {
+          "hf_energy_share": 0.0194,
+          "drift_per_s": -0.00051,
+          "n_outliers_z5": 0
+        }
+      },
+      "asymmetry_LR": 0.0005
+    },
+    {
+      "file": "S02_trial_2.csv",
+      "subject_id": "S02",
+      "condition": 0,
+      "channels_present": [
+        "ax",
+        "ay",
+        "az",
+        "gx",
+        "gy",
+        "gz",
+        "timestamp_s",
+        "heel_strike",
+        "foot"
+      ],
+      "channels_missing": [],
+      "n_rows": 2161,
+      "sampling_rate_hz": 100.0,
+      "duration_s": 21.6,
+      "has_foot_contacts": true,
+      "sensor_position_note": "trunk-mounted IMU (vertical az, 2 peaks/stride)",
+      "n_channels_synced": 6,
+      "n_nan": {
+        "ax": 0,
+        "ay": 0,
+        "az": 0,
+        "gx": 0,
+        "gy": 0,
+        "gz": 0
+      },
+      "n_timestamp_gaps": 0,
+      "max_gap_s": 0.0,
+      "n_nonmonotonic": 0,
+      "n_heel_strikes": 40,
+      "n_left": 20,
+      "n_right": 20,
+      "mean_stride_time_s": 1.082,
+      "stride_time_cv": 0.0255,
+      "cadence_spm": 110.9,
+      "stride_reliability": "reliable",
+      "speed_median_m_s": 1.069,
+      "speed_iqr_m_s": 0.045,
+      "speed_strides_ok": 38,
+      "speed_plausible": true,
+      "signal_quality": {
+        "ax": {
+          "hf_energy_share": 0.2119,
+          "drift_per_s": -0.00104,
+          "n_outliers_z5": 5
+        },
+        "ay": {
+          "hf_energy_share": 0.0143,
+          "drift_per_s": 0.0008,
+          "n_outliers_z5": 0
+        },
+        "az": {
+          "hf_energy_share": 0.0021,
+          "drift_per_s": -0.00503,
+          "n_outliers_z5": 0
+        },
+        "gx": {
+          "hf_energy_share": 0.0102,
+          "drift_per_s": -0.00076,
+          "n_outliers_z5": 0
+        },
+        "gy": {
+          "hf_energy_share": 0.004,
+          "drift_per_s": -0.00163,
+          "n_outliers_z5": 0
+        },
+        "gz": {
+          "hf_energy_share": 0.0186,
+          "drift_per_s": -0.00024,
+          "n_outliers_z5": 0
+        }
+      },
+      "asymmetry_LR": 0.0005
+    },
+    {
+      "file": "S02_trial_3.csv",
+      "subject_id": "S02",
+      "condition": 0,
+      "channels_present": [
+        "ax",
+        "ay",
+        "az",
+        "gx",
+        "gy",
+        "gz",
+        "timestamp_s",
+        "heel_strike",
+        "foot"
+      ],
+      "channels_missing": [],
+      "n_rows": 2154,
+      "sampling_rate_hz": 100.0,
+      "duration_s": 21.53,
+      "has_foot_contacts": true,
+      "sensor_position_note": "trunk-mounted IMU (vertical az, 2 peaks/stride)",
+      "n_channels_synced": 6,
+      "n_nan": {
+        "ax": 0,
+        "ay": 0,
+        "az": 0,
+        "gx": 0,
+        "gy": 0,
+        "gz": 0
+      },
+      "n_timestamp_gaps": 0,
+      "max_gap_s": 0.0,
+      "n_nonmonotonic": 0,
+      "n_heel_strikes": 40,
+      "n_left": 20,
+      "n_right": 20,
+      "mean_stride_time_s": 1.077,
+      "stride_time_cv": 0.0227,
+      "cadence_spm": 111.4,
+      "stride_reliability": "reliable",
+      "speed_median_m_s": 1.069,
+      "speed_iqr_m_s": 0.046,
+      "speed_strides_ok": 38,
+      "speed_plausible": true,
+      "signal_quality": {
+        "ax": {
+          "hf_energy_share": 0.1515,
+          "drift_per_s": -0.00179,
+          "n_outliers_z5": 3
+        },
+        "ay": {
+          "hf_energy_share": 0.0149,
+          "drift_per_s": 0.00078,
+          "n_outliers_z5": 0
+        },
+        "az": {
+          "hf_energy_share": 0.002,
+          "drift_per_s": -0.0051,
+          "n_outliers_z5": 0
+        },
+        "gx": {
+          "hf_energy_share": 0.0103,
+          "drift_per_s": -0.00109,
+          "n_outliers_z5": 0
+        },
+        "gy": {
+          "hf_energy_share": 0.0041,
+          "drift_per_s": -0.00182,
+          "n_outliers_z5": 0
+        },
+        "gz": {
+          "hf_energy_share": 0.0197,
+          "drift_per_s": -0.00064,
+          "n_outliers_z5": 0
+        }
+      },
+      "asymmetry_LR": 0.0005
+    },
+    {
+      "file": "S02_trial_4.csv",
+      "subject_id": "S02",
+      "condition": 0,
+      "channels_present": [
+        "ax",
+        "ay",
+        "az",
+        "gx",
+        "gy",
+        "gz",
+        "timestamp_s",
+        "heel_strike",
+        "foot"
+      ],
+      "channels_missing": [],
+      "n_rows": 2128,
+      "sampling_rate_hz": 100.0,
+      "duration_s": 21.27,
+      "has_foot_contacts": true,
+      "sensor_position_note": "trunk-mounted IMU (vertical az, 2 peaks/stride)",
+      "n_channels_synced": 6,
+      "n_nan": {
+        "ax": 0,
+        "ay": 0,
+        "az": 0,
+        "gx": 0,
+        "gy": 0,
+        "gz": 0
+      },
+      "n_timestamp_gaps": 0,
+      "max_gap_s": 0.0,
+      "n_nonmonotonic": 0,
+      "n_heel_strikes": 40,
+      "n_left": 20,
+      "n_right": 20,
+      "mean_stride_time_s": 1.065,
+      "stride_time_cv": 0.0342,
+      "cadence_spm": 112.6,
+      "stride_reliability": "reliable",
+      "speed_median_m_s": 1.068,
+      "speed_iqr_m_s": 0.043,
+      "speed_strides_ok": 38,
+      "speed_plausible": true,
+      "signal_quality": {
+        "ax": {
+          "hf_energy_share": 0.077,
+          "drift_per_s": -0.00142,
+          "n_outliers_z5": 2
+        },
+        "ay": {
+          "hf_energy_share": 0.0139,
+          "drift_per_s": 0.00066,
+          "n_outliers_z5": 0
+        },
+        "az": {
+          "hf_energy_share": 0.0021,
+          "drift_per_s": 0.00636,
+          "n_outliers_z5": 0
+        },
+        "gx": {
+          "hf_energy_share": 0.0105,
+          "drift_per_s": -0.00118,
+          "n_outliers_z5": 0
+        },
+        "gy": {
+          "hf_energy_share": 0.0038,
+          "drift_per_s": -0.00196,
+          "n_outliers_z5": 0
+        },
+        "gz": {
+          "hf_energy_share": 0.0191,
+          "drift_per_s": -0.00069,
+          "n_outliers_z5": 0
+        }
+      },
+      "asymmetry_LR": 0.0
+    },
+    {
+      "file": "S03_trial_1.csv",
+      "subject_id": "S03",
+      "condition": 0,
+      "channels_present": [
+        "ax",
+        "ay",
+        "az",
+        "gx",
+        "gy",
+        "gz",
+        "timestamp_s",
+        "heel_strike",
+        "foot"
+      ],
+      "channels_missing": [],
+      "n_rows": 2115,
+      "sampling_rate_hz": 100.0,
+      "duration_s": 21.14,
+      "has_foot_contacts": true,
+      "sensor_position_note": "trunk-mounted IMU (vertical az, 2 peaks/stride)",
+      "n_channels_synced": 6,
+      "n_nan": {
+        "ax": 0,
+        "ay": 0,
+        "az": 0,
+        "gx": 0,
+        "gy": 0,
+        "gz": 0
+      },
+      "n_timestamp_gaps": 0,
+      "max_gap_s": 0.0,
+      "n_nonmonotonic": 0,
+      "n_heel_strikes": 40,
+      "n_left": 20,
+      "n_right": 20,
+      "mean_stride_time_s": 1.059,
+      "stride_time_cv": 0.026,
+      "cadence_spm": 113.3,
+      "stride_reliability": "reliable",
+      "speed_median_m_s": 1.098,
+      "speed_iqr_m_s": 0.048,
+      "speed_strides_ok": 38,
+      "speed_plausible": true,
+      "signal_quality": {
+        "ax": {
+          "hf_energy_share": 0.1715,
+          "drift_per_s": -0.00113,
+          "n_outliers_z5": 4
+        },
+        "ay": {
+          "hf_energy_share": 0.0146,
+          "drift_per_s": 0.001,
+          "n_outliers_z5": 0
+        },
+        "az": {
+          "hf_energy_share": 0.0021,
+          "drift_per_s": -0.00476,
+          "n_outliers_z5": 0
+        },
+        "gx": {
+          "hf_energy_share": 0.0109,
+          "drift_per_s": -0.00114,
+          "n_outliers_z5": 0
+        },
+        "gy": {
+          "hf_energy_share": 0.0039,
+          "drift_per_s": -0.00185,
+          "n_outliers_z5": 0
+        },
+        "gz": {
+          "hf_energy_share": 0.0194,
+          "drift_per_s": -0.00075,
+          "n_outliers_z5": 0
+        }
+      },
+      "asymmetry_LR": 0.0
+    },
+    {
+      "file": "S03_trial_2.csv",
+      "subject_id": "S03",
+      "condition": 0,
+      "channels_present": [
+        "ax",
+        "ay",
+        "az",
+        "gx",
+        "gy",
+        "gz",
+        "timestamp_s",
+        "heel_strike",
+        "foot"
+      ],
+      "channels_missing": [],
+      "n_rows": 2144,
+      "sampling_rate_hz": 100.0,
+      "duration_s": 21.43,
+      "has_foot_contacts": true,
+      "sensor_position_note": "trunk-mounted IMU (vertical az, 2 peaks/stride)",
+      "n_channels_synced": 6,
+      "n_nan": {
+        "ax": 0,
+        "ay": 0,
+        "az": 0,
+        "gx": 0,
+        "gy": 0,
+        "gz": 0
+      },
+      "n_timestamp_gaps": 0,
+      "max_gap_s": 0.0,
+      "n_nonmonotonic": 0,
+      "n_heel_strikes": 40,
+      "n_left": 20,
+      "n_right": 20,
+      "mean_stride_time_s": 1.073,
+      "stride_time_cv": 0.0237,
+      "cadence_spm": 111.8,
+      "stride_reliability": "reliable",
+      "speed_median_m_s": 1.101,
+      "speed_iqr_m_s": 0.049,
+      "speed_strides_ok": 38,
+      "speed_plausible": true,
+      "signal_quality": {
+        "ax": {
+          "hf_energy_share": 0.1184,
+          "drift_per_s": -0.00161,
+          "n_outliers_z5": 2
+        },
+        "ay": {
+          "hf_energy_share": 0.014,
+          "drift_per_s": 0.00051,
+          "n_outliers_z5": 0
+        },
+        "az": {
+          "hf_energy_share": 0.0021,
+          "drift_per_s": -0.00454,
+          "n_outliers_z5": 0
+        },
+        "gx": {
+          "hf_energy_share": 0.011,
+          "drift_per_s": -0.00151,
+          "n_outliers_z5": 0
+        },
+        "gy": {
+          "hf_energy_share": 0.0038,
+          "drift_per_s": -0.00178,
+          "n_outliers_z5": 0
+        },
+        "gz": {
+          "hf_energy_share": 0.0198,
+          "drift_per_s": -0.00041,
+          "n_outliers_z5": 0
+        }
+      },
+      "asymmetry_LR": 0.0
+    },
+    {
+      "file": "S03_trial_3.csv",
+      "subject_id": "S03",
+      "condition": 0,
+      "channels_present": [
+        "ax",
+        "ay",
+        "az",
+        "gx",
+        "gy",
+        "gz",
+        "timestamp_s",
+        "heel_strike",
+        "foot"
+      ],
+      "channels_missing": [],
+      "n_rows": 2099,
+      "sampling_rate_hz": 100.0,
+      "duration_s": 21.28,
+      "has_foot_contacts": true,
+      "sensor_position_note": "trunk-mounted IMU (vertical az, 2 peaks/stride)",
+      "n_channels_synced": 6,
+      "n_nan": {
+        "ax": 0,
+        "ay": 0,
+        "az": 0,
+        "gx": 0,
+        "gy": 0,
+        "gz": 0
+      },
+      "n_timestamp_gaps": 1,
+      "max_gap_s": 0.31,
+      "n_nonmonotonic": 0,
+      "n_heel_strikes": 39,
+      "n_left": 19,
+      "n_right": 20,
+      "mean_stride_time_s": 1.094,
+      "stride_time_cv": 0.1703,
+      "cadence_spm": 109.7,
+      "stride_reliability": "check",
+      "speed_median_m_s": 1.102,
+      "speed_iqr_m_s": 0.05,
+      "speed_strides_ok": 37,
+      "speed_plausible": true,
+      "signal_quality": {
+        "ax": {
+          "hf_energy_share": 0.1082,
+          "drift_per_s": -0.00099,
+          "n_outliers_z5": 2
+        },
+        "ay": {
+          "hf_energy_share": 0.0148,
+          "drift_per_s": 0.0006,
+          "n_outliers_z5": 0
+        },
+        "az": {
+          "hf_energy_share": 0.0024,
+          "drift_per_s": -0.00441,
+          "n_outliers_z5": 0
+        },
+        "gx": {
+          "hf_energy_share": 0.0113,
+          "drift_per_s": -0.00144,
+          "n_outliers_z5": 0
+        },
+        "gy": {
+          "hf_energy_share": 0.0047,
+          "drift_per_s": -0.00199,
+          "n_outliers_z5": 0
+        },
+        "gz": {
+          "hf_energy_share": 0.0208,
+          "drift_per_s": -0.00049,
+          "n_outliers_z5": 0
+        }
+      },
+      "asymmetry_LR": 0.0545
+    },
+    {
+      "file": "S03_trial_4.csv",
+      "subject_id": "S03",
+      "condition": 0,
+      "channels_present": [
+        "ax",
+        "ay",
+        "az",
+        "gx",
+        "gy",
+        "gz",
+        "timestamp_s",
+        "heel_strike",
+        "foot"
+      ],
+      "channels_missing": [],
+      "n_rows": 2115,
+      "sampling_rate_hz": 100.0,
+      "duration_s": 21.14,
+      "has_foot_contacts": true,
+      "sensor_position_note": "trunk-mounted IMU (vertical az, 2 peaks/stride)",
+      "n_channels_synced": 6,
+      "n_nan": {
+        "ax": 0,
+        "ay": 0,
+        "az": 0,
+        "gx": 0,
+        "gy": 0,
+        "gz": 0
+      },
+      "n_timestamp_gaps": 0,
+      "max_gap_s": 0.0,
+      "n_nonmonotonic": 0,
+      "n_heel_strikes": 40,
+      "n_left": 20,
+      "n_right": 20,
+      "mean_stride_time_s": 1.058,
+      "stride_time_cv": 0.0285,
+      "cadence_spm": 113.5,
+      "stride_reliability": "reliable",
+      "speed_median_m_s": 1.102,
+      "speed_iqr_m_s": 0.046,
+      "speed_strides_ok": 38,
+      "speed_plausible": true,
+      "signal_quality": {
+        "ax": {
+          "hf_energy_share": 0.1504,
+          "drift_per_s": -0.00152,
+          "n_outliers_z5": 5
+        },
+        "ay": {
+          "hf_energy_share": 0.0145,
+          "drift_per_s": 0.00123,
+          "n_outliers_z5": 0
+        },
+        "az": {
+          "hf_energy_share": 0.002,
+          "drift_per_s": -0.00477,
+          "n_outliers_z5": 0
+        },
+        "gx": {
+          "hf_energy_share": 0.0097,
+          "drift_per_s": -0.00117,
+          "n_outliers_z5": 0
+        },
+        "gy": {
+          "hf_energy_share": 0.0038,
+          "drift_per_s": -0.00165,
+          "n_outliers_z5": 0
+        },
+        "gz": {
+          "hf_energy_share": 0.0184,
+          "drift_per_s": -0.00027,
+          "n_outliers_z5": 0
+        }
+      },
+      "asymmetry_LR": 0.0005
+    },
+    {
+      "file": "S04_trial_1.csv",
+      "subject_id": "S04",
+      "condition": 0,
+      "channels_present": [
+        "ax",
+        "ay",
+        "az",
+        "gx",
+        "gy",
+        "gz",
+        "timestamp_s",
+        "heel_strike",
+        "foot"
+      ],
+      "channels_missing": [],
+      "n_rows": 2257,
+      "sampling_rate_hz": 100.0,
+      "duration_s": 22.56,
+      "has_foot_contacts": true,
+      "sensor_position_note": "trunk-mounted IMU (vertical az, 2 peaks/stride)",
+      "n_channels_synced": 6,
+      "n_nan": {
+        "ax": 0,
+        "ay": 0,
+        "az": 0,
+        "gx": 0,
+        "gy": 0,
+        "gz": 0
+      },
+      "n_timestamp_gaps": 0,
+      "max_gap_s": 0.0,
+      "n_nonmonotonic": 0,
+      "n_heel_strikes": 40,
+      "n_left": 20,
+      "n_right": 20,
+      "mean_stride_time_s": 1.125,
+      "stride_time_cv": 0.026,
+      "cadence_spm": 106.6,
+      "stride_reliability": "reliable",
+      "speed_median_m_s": 1.113,
+      "speed_iqr_m_s": 0.044,
+      "speed_strides_ok": 38,
+      "speed_plausible": true,
+      "signal_quality": {
+        "ax": {
+          "hf_energy_share": 0.1739,
+          "drift_per_s": -0.00133,
+          "n_outliers_z5": 5
+        },
+        "ay": {
+          "hf_energy_share": 0.0147,
+          "drift_per_s": 0.00075,
+          "n_outliers_z5": 0
+        },
+        "az": {
+          "hf_energy_share": 0.0019,
+          "drift_per_s": -0.00485,
+          "n_outliers_z5": 0
+        },
+        "gx": {
+          "hf_energy_share": 0.0101,
+          "drift_per_s": -0.00091,
+          "n_outliers_z5": 0
+        },
+        "gy": {
+          "hf_energy_share": 0.0039,
+          "drift_per_s": -0.00185,
+          "n_outliers_z5": 0
+        },
+        "gz": {
+          "hf_energy_share": 0.0183,
+          "drift_per_s": -0.00066,
+          "n_outliers_z5": 0
+        }
+      },
+      "asymmetry_LR": 0.0
+    },
+    {
+      "file": "S04_trial_2.csv",
+      "subject_id": "S04",
+      "condition": 0,
+      "channels_present": [
+        "ax",
+        "ay",
+        "az",
+        "gx",
+        "gy",
+        "gz",
+        "timestamp_s",
+        "heel_strike",
+        "foot"
+      ],
+      "channels_missing": [],
+      "n_rows": 2260,
+      "sampling_rate_hz": 100.0,
+      "duration_s": 22.59,
+      "has_foot_contacts": true,
+      "sensor_position_note": "trunk-mounted IMU (vertical az, 2 peaks/stride)",
+      "n_channels_synced": 6,
+      "n_nan": {
+        "ax": 0,
+        "ay": 0,
+        "az": 0,
+        "gx": 0,
+        "gy": 0,
+        "gz": 0
+      },
+      "n_timestamp_gaps": 0,
+      "max_gap_s": 0.0,
+      "n_nonmonotonic": 0,
+      "n_heel_strikes": 40,
+      "n_left": 20,
+      "n_right": 20,
+      "mean_stride_time_s": 1.13,
+      "stride_time_cv": 0.0272,
+      "cadence_spm": 106.2,
+      "stride_reliability": "reliable",
+      "speed_median_m_s": 1.115,
+      "speed_iqr_m_s": 0.041,
+      "speed_strides_ok": 38,
+      "speed_plausible": true,
+      "signal_quality": {
+        "ax": {
+          "hf_energy_share": 0.1718,
+          "drift_per_s": -0.00073,
+          "n_outliers_z5": 4
+        },
+        "ay": {
+          "hf_energy_share": 0.0145,
+          "drift_per_s": 0.00092,
+          "n_outliers_z5": 0
+        },
+        "az": {
+          "hf_energy_share": 0.0021,
+          "drift_per_s": 0.00986,
+          "n_outliers_z5": 0
+        },
+        "gx": {
+          "hf_energy_share": 0.0108,
+          "drift_per_s": -0.00108,
+          "n_outliers_z5": 0
+        },
+        "gy": {
+          "hf_energy_share": 0.0038,
+          "drift_per_s": -0.00158,
+          "n_outliers_z5": 0
+        },
+        "gz": {
+          "hf_energy_share": 0.0189,
+          "drift_per_s": -0.00061,
+          "n_outliers_z5": 0
+        }
+      },
+      "asymmetry_LR": 0.0
+    },
+    {
+      "file": "S04_trial_3.csv",
+      "subject_id": "S04",
+      "condition": 0,
+      "channels_present": [
+        "ax",
+        "ay",
+        "az",
+        "gx",
+        "gy",
+        "gz",
+        "timestamp_s",
+        "heel_strike",
+        "foot"
+      ],
+      "channels_missing": [],
+      "n_rows": 2258,
+      "sampling_rate_hz": 100.0,
+      "duration_s": 22.87,
+      "has_foot_contacts": true,
+      "sensor_position_note": "trunk-mounted IMU (vertical az, 2 peaks/stride)",
+      "n_channels_synced": 6,
+      "n_nan": {
+        "ax": 0,
+        "ay": 0,
+        "az": 0,
+        "gx": 0,
+        "gy": 0,
+        "gz": 0
+      },
+      "n_timestamp_gaps": 1,
+      "max_gap_s": 0.31,
+      "n_nonmonotonic": 0,
+      "n_heel_strikes": 39,
+      "n_left": 20,
+      "n_right": 19,
+      "mean_stride_time_s": 1.174,
+      "stride_time_cv": 0.1646,
+      "cadence_spm": 102.3,
+      "stride_reliability": "check",
+      "speed_median_m_s": 1.101,
+      "speed_iqr_m_s": 0.046,
+      "speed_strides_ok": 37,
+      "speed_plausible": true,
+      "signal_quality": {
+        "ax": {
+          "hf_energy_share": 0.1814,
+          "drift_per_s": -0.00101,
+          "n_outliers_z5": 4
+        },
+        "ay": {
+          "hf_energy_share": 0.0149,
+          "drift_per_s": 0.00035,
+          "n_outliers_z5": 0
+        },
+        "az": {
+          "hf_energy_share": 0.0025,
+          "drift_per_s": 0.01997,
+          "n_outliers_z5": 0
+        },
+        "gx": {
+          "hf_energy_share": 0.0104,
+          "drift_per_s": -0.00123,
+          "n_outliers_z5": 0
+        },
+        "gy": {
+          "hf_energy_share": 0.0045,
+          "drift_per_s": -0.00233,
+          "n_outliers_z5": 0
+        },
+        "gz": {
+          "hf_energy_share": 0.0189,
+          "drift_per_s": -0.00065,
+          "n_outliers_z5": 0
+        }
+      },
+      "asymmetry_LR": 0.055
+    },
+    {
+      "file": "S04_trial_4.csv",
+      "subject_id": "S04",
+      "condition": 0,
+      "channels_present": [
+        "ax",
+        "ay",
+        "az",
+        "gx",
+        "gy",
+        "gz",
+        "timestamp_s",
+        "heel_strike",
+        "foot"
+      ],
+      "channels_missing": [],
+      "n_rows": 2254,
+      "sampling_rate_hz": 100.0,
+      "duration_s": 22.53,
+      "has_foot_contacts": true,
+      "sensor_position_note": "trunk-mounted IMU (vertical az, 2 peaks/stride)",
+      "n_channels_synced": 6,
+      "n_nan": {
+        "ax": 0,
+        "ay": 0,
+        "az": 0,
+        "gx": 0,
+        "gy": 0,
+        "gz": 0
+      },
+      "n_timestamp_gaps": 0,
+      "max_gap_s": 0.0,
+      "n_nonmonotonic": 0,
+      "n_heel_strikes": 40,
+      "n_left": 20,
+      "n_right": 20,
+      "mean_stride_time_s": 1.126,
+      "stride_time_cv": 0.031,
+      "cadence_spm": 106.5,
+      "stride_reliability": "reliable",
+      "speed_median_m_s": 1.113,
+      "speed_iqr_m_s": 0.043,
+      "speed_strides_ok": 38,
+      "speed_plausible": true,
+      "signal_quality": {
+        "ax": {
+          "hf_energy_share": 0.0699,
+          "drift_per_s": -0.00175,
+          "n_outliers_z5": 2
+        },
+        "ay": {
+          "hf_energy_share": 0.0146,
+          "drift_per_s": 0.00061,
+          "n_outliers_z5": 0
+        },
+        "az": {
+          "hf_energy_share": 0.0021,
+          "drift_per_s": 0.02511,
+          "n_outliers_z5": 0
+        },
+        "gx": {
+          "hf_energy_share": 0.0102,
+          "drift_per_s": -0.00094,
+          "n_outliers_z5": 0
+        },
+        "gy": {
+          "hf_energy_share": 0.0035,
+          "drift_per_s": -0.00187,
+          "n_outliers_z5": 0
+        },
+        "gz": {
+          "hf_energy_share": 0.0192,
+          "drift_per_s": -0.00036,
+          "n_outliers_z5": 0
+        }
+      },
+      "asymmetry_LR": 0.0019
+    },
+    {
+      "file": "S05_trial_1.csv",
+      "subject_id": "S05",
+      "condition": 0,
+      "channels_present": [
+        "ax",
+        "ay",
+        "az",
+        "gx",
+        "gy",
+        "gz",
+        "timestamp_s",
+        "heel_strike",
+        "foot"
+      ],
+      "channels_missing": [],
+      "n_rows": 2272,
+      "sampling_rate_hz": 100.0,
+      "duration_s": 22.71,
+      "has_foot_contacts": true,
+      "sensor_position_note": "trunk-mounted IMU (vertical az, 2 peaks/stride)",
+      "n_channels_synced": 6,
+      "n_nan": {
+        "ax": 0,
+        "ay": 0,
+        "az": 0,
+        "gx": 0,
+        "gy": 0,
+        "gz": 0
+      },
+      "n_timestamp_gaps": 0,
+      "max_gap_s": 0.0,
+      "n_nonmonotonic": 0,
+      "n_heel_strikes": 40,
+      "n_left": 20,
+      "n_right": 20,
+      "mean_stride_time_s": 1.134,
+      "stride_time_cv": 0.0238,
+      "cadence_spm": 105.8,
+      "stride_reliability": "reliable",
+      "speed_median_m_s": 1.17,
+      "speed_iqr_m_s": 0.046,
+      "speed_strides_ok": 38,
+      "speed_plausible": true,
+      "signal_quality": {
+        "ax": {
+          "hf_energy_share": 0.1057,
+          "drift_per_s": -0.00127,
+          "n_outliers_z5": 2
+        },
+        "ay": {
+          "hf_energy_share": 0.0142,
+          "drift_per_s": 0.00085,
+          "n_outliers_z5": 0
+        },
+        "az": {
+          "hf_energy_share": 0.002,
+          "drift_per_s": -0.00451,
+          "n_outliers_z5": 0
+        },
+        "gx": {
+          "hf_energy_share": 0.0109,
+          "drift_per_s": -0.00096,
+          "n_outliers_z5": 0
+        },
+        "gy": {
+          "hf_energy_share": 0.0038,
+          "drift_per_s": -0.00159,
+          "n_outliers_z5": 0
+        },
+        "gz": {
+          "hf_energy_share": 0.0178,
+          "drift_per_s": -9e-05,
+          "n_outliers_z5": 0
+        }
+      },
+      "asymmetry_LR": 0.0005
+    },
+    {
+      "file": "S05_trial_2.csv",
+      "subject_id": "S05",
+      "condition": 0,
+      "channels_present": [
+        "ax",
+        "ay",
+        "az",
+        "gx",
+        "gy",
+        "gz",
+        "timestamp_s",
+        "heel_strike",
+        "foot"
+      ],
+      "channels_missing": [],
+      "n_rows": 2286,
+      "sampling_rate_hz": 100.0,
+      "duration_s": 22.85,
+      "has_foot_contacts": true,
+      "sensor_position_note": "trunk-mounted IMU (vertical az, 2 peaks/stride)",
+      "n_channels_synced": 6,
+      "n_nan": {
+        "ax": 0,
+        "ay": 0,
+        "az": 0,
+        "gx": 0,
+        "gy": 0,
+        "gz": 0
+      },
+      "n_timestamp_gaps": 0,
+      "max_gap_s": 0.0,
+      "n_nonmonotonic": 0,
+      "n_heel_strikes": 40,
+      "n_left": 20,
+      "n_right": 20,
+      "mean_stride_time_s": 1.144,
+      "stride_time_cv": 0.026,
+      "cadence_spm": 104.9,
+      "stride_reliability": "reliable",
+      "speed_median_m_s": 1.17,
+      "speed_iqr_m_s": 0.052,
+      "speed_strides_ok": 38,
+      "speed_plausible": true,
+      "signal_quality": {
+        "ax": {
+          "hf_energy_share": 0.1937,
+          "drift_per_s": -0.00078,
+          "n_outliers_z5": 5
+        },
+        "ay": {
+          "hf_energy_share": 0.0137,
+          "drift_per_s": 0.00081,
+          "n_outliers_z5": 0
+        },
+        "az": {
+          "hf_energy_share": 0.0021,
+          "drift_per_s": -0.00474,
+          "n_outliers_z5": 0
+        },
+        "gx": {
+          "hf_energy_share": 0.0103,
+          "drift_per_s": -0.0011,
+          "n_outliers_z5": 0
+        },
+        "gy": {
+          "hf_energy_share": 0.0038,
+          "drift_per_s": -0.00167,
+          "n_outliers_z5": 0
+        },
+        "gz": {
+          "hf_energy_share": 0.0182,
+          "drift_per_s": -0.00034,
+          "n_outliers_z5": 0
+        }
+      },
+      "asymmetry_LR": 0.0005
+    },
+    {
+      "file": "S05_trial_3.csv",
+      "subject_id": "S05",
+      "condition": 0,
+      "channels_present": [
+        "ax",
+        "ay",
+        "az",
+        "gx",
+        "gy",
+        "gz",
+        "timestamp_s",
+        "heel_strike",
+        "foot"
+      ],
+      "channels_missing": [],
+      "n_rows": 2256,
+      "sampling_rate_hz": 100.0,
+      "duration_s": 22.55,
+      "has_foot_contacts": true,
+      "sensor_position_note": "trunk-mounted IMU (vertical az, 2 peaks/stride)",
+      "n_channels_synced": 6,
+      "n_nan": {
+        "ax": 0,
+        "ay": 0,
+        "az": 0,
+        "gx": 0,
+        "gy": 0,
+        "gz": 0
+      },
+      "n_timestamp_gaps": 0,
+      "max_gap_s": 0.0,
+      "n_nonmonotonic": 0,
+      "n_heel_strikes": 40,
+      "n_left": 20,
+      "n_right": 20,
+      "mean_stride_time_s": 1.129,
+      "stride_time_cv": 0.0214,
+      "cadence_spm": 106.3,
+      "stride_reliability": "reliable",
+      "speed_median_m_s": 1.171,
+      "speed_iqr_m_s": 0.052,
+      "speed_strides_ok": 38,
+      "speed_plausible": true,
+      "signal_quality": {
+        "ax": {
+          "hf_energy_share": 0.1359,
+          "drift_per_s": -0.00236,
+          "n_outliers_z5": 4
+        },
+        "ay": {
+          "hf_energy_share": 0.0144,
+          "drift_per_s": 0.00056,
+          "n_outliers_z5": 0
+        },
+        "az": {
+          "hf_energy_share": 0.002,
+          "drift_per_s": 0.01537,
+          "n_outliers_z5": 0
+        },
+        "gx": {
+          "hf_energy_share": 0.0108,
+          "drift_per_s": -0.0009,
+          "n_outliers_z5": 0
+        },
+        "gy": {
+          "hf_energy_share": 0.004,
+          "drift_per_s": -0.00188,
+          "n_outliers_z5": 0
+        },
+        "gz": {
+          "hf_energy_share": 0.0187,
+          "drift_per_s": -0.00047,
+          "n_outliers_z5": 0
+        }
+      },
+      "asymmetry_LR": 0.0
+    },
+    {
+      "file": "S05_trial_4.csv",
+      "subject_id": "S05",
+      "condition": 0,
+      "channels_present": [
+        "ax",
+        "ay",
+        "az",
+        "gx",
+        "gy",
+        "gz",
+        "timestamp_s",
+        "heel_strike",
+        "foot"
+      ],
+      "channels_missing": [],
+      "n_rows": 2287,
+      "sampling_rate_hz": 100.0,
+      "duration_s": 22.86,
+      "has_foot_contacts": true,
+      "sensor_position_note": "trunk-mounted IMU (vertical az, 2 peaks/stride)",
+      "n_channels_synced": 6,
+      "n_nan": {
+        "ax": 0,
+        "ay": 0,
+        "az": 0,
+        "gx": 0,
+        "gy": 0,
+        "gz": 0
+      },
+      "n_timestamp_gaps": 0,
+      "max_gap_s": 0.0,
+      "n_nonmonotonic": 0,
+      "n_heel_strikes": 40,
+      "n_left": 20,
+      "n_right": 20,
+      "mean_stride_time_s": 1.144,
+      "stride_time_cv": 0.0319,
+      "cadence_spm": 104.9,
+      "stride_reliability": "reliable",
+      "speed_median_m_s": 1.168,
+      "speed_iqr_m_s": 0.047,
+      "speed_strides_ok": 38,
+      "speed_plausible": true,
+      "signal_quality": {
+        "ax": {
+          "hf_energy_share": 0.1321,
+          "drift_per_s": -0.00079,
+          "n_outliers_z5": 3
+        },
+        "ay": {
+          "hf_energy_share": 0.0142,
+          "drift_per_s": 0.00098,
+          "n_outliers_z5": 0
+        },
+        "az": {
+          "hf_energy_share": 0.002,
+          "drift_per_s": 0.02212,
+          "n_outliers_z5": 0
+        },
+        "gx": {
+          "hf_energy_share": 0.0101,
+          "drift_per_s": -0.00126,
+          "n_outliers_z5": 0
+        },
+        "gy": {
+          "hf_energy_share": 0.004,
+          "drift_per_s": -0.00174,
+          "n_outliers_z5": 0
+        },
+        "gz": {
+          "hf_energy_share": 0.0199,
+          "drift_per_s": -0.00042,
+          "n_outliers_z5": 0
+        }
+      },
+      "asymmetry_LR": 0.0009
+    },
+    {
+      "file": "S06_trial_1.csv",
+      "subject_id": "S06",
+      "condition": 0,
+      "channels_present": [
+        "ax",
+        "ay",
+        "az",
+        "gx",
+        "gy",
+        "gz",
+        "timestamp_s",
+        "heel_strike",
+        "foot"
+      ],
+      "channels_missing": [],
+      "n_rows": 2153,
+      "sampling_rate_hz": 100.0,
+      "duration_s": 21.82,
+      "has_foot_contacts": true,
+      "sensor_position_note": "trunk-mounted IMU (vertical az, 2 peaks/stride)",
+      "n_channels_synced": 6,
+      "n_nan": {
+        "ax": 0,
+        "ay": 0,
+        "az": 0,
+        "gx": 0,
+        "gy": 0,
+        "gz": 0
+      },
+      "n_timestamp_gaps": 1,
+      "max_gap_s": 0.31,
+      "n_nonmonotonic": 0,
+      "n_heel_strikes": 40,
+      "n_left": 20,
+      "n_right": 20,
+      "mean_stride_time_s": 1.092,
+      "stride_time_cv": 0.0256,
+      "cadence_spm": 109.9,
+      "stride_reliability": "reliable",
+      "speed_median_m_s": 1.063,
+      "speed_iqr_m_s": 0.052,
+      "speed_strides_ok": 38,
+      "speed_plausible": true,
+      "signal_quality": {
+        "ax": {
+          "hf_energy_share": 0.143,
+          "drift_per_s": -0.00149,
+          "n_outliers_z5": 2
+        },
+        "ay": {
+          "hf_energy_share": 0.0145,
+          "drift_per_s": 0.00044,
+          "n_outliers_z5": 0
+        },
+        "az": {
+          "hf_energy_share": 0.0024,
+          "drift_per_s": -0.00285,
+          "n_outliers_z5": 0
+        },
+        "gx": {
+          "hf_energy_share": 0.0106,
+          "drift_per_s": -0.00095,
+          "n_outliers_z5": 0
+        },
+        "gy": {
+          "hf_energy_share": 0.0039,
+          "drift_per_s": -0.00124,
+          "n_outliers_z5": 0
+        },
+        "gz": {
+          "hf_energy_share": 0.0184,
+          "drift_per_s": -0.00012,
+          "n_outliers_z5": 0
+        }
+      },
+      "asymmetry_LR": 0.0005
+    },
+    {
+      "file": "S06_trial_2.csv",
+      "subject_id": "S06",
+      "condition": 0,
+      "channels_present": [
+        "ax",
+        "ay",
+        "az",
+        "gx",
+        "gy",
+        "gz",
+        "timestamp_s",
+        "heel_strike",
+        "foot"
+      ],
+      "channels_missing": [],
+      "n_rows": 2171,
+      "sampling_rate_hz": 100.0,
+      "duration_s": 21.7,
+      "has_foot_contacts": true,
+      "sensor_position_note": "trunk-mounted IMU (vertical az, 2 peaks/stride)",
+      "n_channels_synced": 6,
+      "n_nan": {
+        "ax": 0,
+        "ay": 0,
+        "az": 0,
+        "gx": 0,
+        "gy": 0,
+        "gz": 0
+      },
+      "n_timestamp_gaps": 0,
+      "max_gap_s": 0.0,
+      "n_nonmonotonic": 0,
+      "n_heel_strikes": 40,
+      "n_left": 20,
+      "n_right": 20,
+      "mean_stride_time_s": 1.084,
+      "stride_time_cv": 0.0211,
+      "cadence_spm": 110.7,
+      "stride_reliability": "reliable",
+      "speed_median_m_s": 1.071,
+      "speed_iqr_m_s": 0.045,
+      "speed_strides_ok": 38,
+      "speed_plausible": true,
+      "signal_quality": {
+        "ax": {
+          "hf_energy_share": 0.2122,
+          "drift_per_s": -0.001,
+          "n_outliers_z5": 4
+        },
+        "ay": {
+          "hf_energy_share": 0.0144,
+          "drift_per_s": 0.00109,
+          "n_outliers_z5": 0
+        },
+        "az": {
+          "hf_energy_share": 0.0019,
+          "drift_per_s": -0.00441,
+          "n_outliers_z5": 0
+        },
+        "gx": {
+          "hf_energy_share": 0.0099,
+          "drift_per_s": -0.001,
+          "n_outliers_z5": 0
+        },
+        "gy": {
+          "hf_energy_share": 0.0037,
+          "drift_per_s": -0.00178,
+          "n_outliers_z5": 0
+        },
+        "gz": {
+          "hf_energy_share": 0.0189,
+          "drift_per_s": -0.00054,
+          "n_outliers_z5": 0
+        }
+      },
+      "asymmetry_LR": 0.0005
+    },
+    {
+      "file": "S06_trial_3.csv",
+      "subject_id": "S06",
+      "condition": 0,
+      "channels_present": [
+        "ax",
+        "ay",
+        "az",
+        "gx",
+        "gy",
+        "gz",
+        "timestamp_s",
+        "heel_strike",
+        "foot"
+      ],
+      "channels_missing": [],
+      "n_rows": 2143,
+      "sampling_rate_hz": 100.0,
+      "duration_s": 21.42,
+      "has_foot_contacts": true,
+      "sensor_position_note": "trunk-mounted IMU (vertical az, 2 peaks/stride)",
+      "n_channels_synced": 6,
+      "n_nan": {
+        "ax": 0,
+        "ay": 0,
+        "az": 0,
+        "gx": 0,
+        "gy": 0,
+        "gz": 0
+      },
+      "n_timestamp_gaps": 0,
+      "max_gap_s": 0.0,
+      "n_nonmonotonic": 0,
+      "n_heel_strikes": 40,
+      "n_left": 20,
+      "n_right": 20,
+      "mean_stride_time_s": 1.069,
+      "stride_time_cv": 0.0243,
+      "cadence_spm": 112.2,
+      "stride_reliability": "reliable",
+      "speed_median_m_s": 1.071,
+      "speed_iqr_m_s": 0.045,
+      "speed_strides_ok": 38,
+      "speed_plausible": true,
+      "signal_quality": {
+        "ax": {
+          "hf_energy_share": 0.1699,
+          "drift_per_s": -0.00051,
+          "n_outliers_z5": 4
+        },
+        "ay": {
+          "hf_energy_share": 0.0147,
+          "drift_per_s": 0.00085,
+          "n_outliers_z5": 0
+        },
+        "az": {
+          "hf_energy_share": 0.0022,
+          "drift_per_s": -0.00453,
+          "n_outliers_z5": 0
+        },
+        "gx": {
+          "hf_energy_share": 0.0105,
+          "drift_per_s": -0.00119,
+          "n_outliers_z5": 0
+        },
+        "gy": {
+          "hf_energy_share": 0.004,
+          "drift_per_s": -0.00168,
+          "n_outliers_z5": 0
+        },
+        "gz": {
+          "hf_energy_share": 0.0172,
+          "drift_per_s": -0.00032,
+          "n_outliers_z5": 0
+        }
+      },
+      "asymmetry_LR": 0.0
+    },
+    {
+      "file": "S06_trial_4.csv",
+      "subject_id": "S06",
+      "condition": 0,
+      "channels_present": [
+        "ax",
+        "ay",
+        "az",
+        "gx",
+        "gy",
+        "gz",
+        "timestamp_s",
+        "heel_strike",
+        "foot"
+      ],
+      "channels_missing": [],
+      "n_rows": 2138,
+      "sampling_rate_hz": 100.0,
+      "duration_s": 21.37,
+      "has_foot_contacts": true,
+      "sensor_position_note": "trunk-mounted IMU (vertical az, 2 peaks/stride)",
+      "n_channels_synced": 6,
+      "n_nan": {
+        "ax": 0,
+        "ay": 0,
+        "az": 0,
+        "gx": 0,
+        "gy": 0,
+        "gz": 0
+      },
+      "n_timestamp_gaps": 0,
+      "max_gap_s": 0.0,
+      "n_nonmonotonic": 0,
+      "n_heel_strikes": 40,
+      "n_left": 20,
+      "n_right": 20,
+      "mean_stride_time_s": 1.069,
+      "stride_time_cv": 0.0233,
+      "cadence_spm": 112.2,
+      "stride_reliability": "reliable",
+      "speed_median_m_s": 1.069,
+      "speed_iqr_m_s": 0.047,
+      "speed_strides_ok": 38,
+      "speed_plausible": true,
+      "signal_quality": {
+        "ax": {
+          "hf_energy_share": 0.1735,
+          "drift_per_s": -0.00198,
+          "n_outliers_z5": 5
+        },
+        "ay": {
+          "hf_energy_share": 0.0142,
+          "drift_per_s": 0.00077,
+          "n_outliers_z5": 0
+        },
+        "az": {
+          "hf_energy_share": 0.0021,
+          "drift_per_s": -0.0044,
+          "n_outliers_z5": 0
+        },
+        "gx": {
+          "hf_energy_share": 0.0102,
+          "drift_per_s": -0.00101,
+          "n_outliers_z5": 0
+        },
+        "gy": {
+          "hf_energy_share": 0.0039,
+          "drift_per_s": -0.00154,
+          "n_outliers_z5": 0
+        },
+        "gz": {
+          "hf_energy_share": 0.0178,
+          "drift_per_s": -0.00046,
+          "n_outliers_z5": 0
+        }
+      },
+      "asymmetry_LR": 0.0015
+    },
+    {
+      "file": "S07_trial_1.csv",
+      "subject_id": "S07",
+      "condition": 1,
+      "channels_present": [
+        "ax",
+        "ay",
+        "az",
+        "gx",
+        "gy",
+        "gz",
+        "timestamp_s",
+        "heel_strike",
+        "foot"
+      ],
+      "channels_missing": [],
+      "n_rows": 2726,
+      "sampling_rate_hz": 100.0,
+      "duration_s": 27.25,
+      "has_foot_contacts": true,
+      "sensor_position_note": "trunk-mounted IMU (vertical az, 2 peaks/stride)",
+      "n_channels_synced": 6,
+      "n_nan": {
+        "ax": 0,
+        "ay": 0,
+        "az": 0,
+        "gx": 0,
+        "gy": 0,
+        "gz": 0
+      },
+      "n_timestamp_gaps": 0,
+      "max_gap_s": 0.0,
+      "n_nonmonotonic": 0,
+      "n_heel_strikes": 40,
+      "n_left": 20,
+      "n_right": 20,
+      "mean_stride_time_s": 1.359,
+      "stride_time_cv": 0.0743,
+      "cadence_spm": 88.3,
+      "stride_reliability": "reliable",
+      "speed_median_m_s": 1.071,
+      "speed_iqr_m_s": 0.076,
+      "speed_strides_ok": 38,
+      "speed_plausible": true,
+      "signal_quality": {
+        "ax": {
+          "hf_energy_share": 0.147,
+          "drift_per_s": -0.00084,
+          "n_outliers_z5": 4
+        },
+        "ay": {
+          "hf_energy_share": 0.0132,
+          "drift_per_s": 0.00083,
+          "n_outliers_z5": 0
+        },
+        "az": {
+          "hf_energy_share": 0.002,
+          "drift_per_s": -0.00348,
+          "n_outliers_z5": 0
+        },
+        "gx": {
+          "hf_energy_share": 0.0099,
+          "drift_per_s": -0.00095,
+          "n_outliers_z5": 0
+        },
+        "gy": {
+          "hf_energy_share": 0.0039,
+          "drift_per_s": -0.00136,
+          "n_outliers_z5": 0
+        },
+        "gz": {
+          "hf_energy_share": 0.018,
+          "drift_per_s": -0.00032,
+          "n_outliers_z5": 0
+        }
+      },
+      "asymmetry_LR": 0.0062
+    },
+    {
+      "file": "S07_trial_2.csv",
+      "subject_id": "S07",
+      "condition": 1,
+      "channels_present": [
+        "ax",
+        "ay",
+        "az",
+        "gx",
+        "gy",
+        "gz",
+        "timestamp_s",
+        "heel_strike",
+        "foot"
+      ],
+      "channels_missing": [],
+      "n_rows": 2655,
+      "sampling_rate_hz": 100.0,
+      "duration_s": 26.54,
+      "has_foot_contacts": true,
+      "sensor_position_note": "trunk-mounted IMU (vertical az, 2 peaks/stride)",
+      "n_channels_synced": 6,
+      "n_nan": {
+        "ax": 0,
+        "ay": 0,
+        "az": 0,
+        "gx": 0,
+        "gy": 0,
+        "gz": 0
+      },
+      "n_timestamp_gaps": 0,
+      "max_gap_s": 0.0,
+      "n_nonmonotonic": 0,
+      "n_heel_strikes": 40,
+      "n_left": 20,
+      "n_right": 20,
+      "mean_stride_time_s": 1.325,
+      "stride_time_cv": 0.0681,
+      "cadence_spm": 90.6,
+      "stride_reliability": "reliable",
+      "speed_median_m_s": 1.074,
+      "speed_iqr_m_s": 0.076,
+      "speed_strides_ok": 38,
+      "speed_plausible": true,
+      "signal_quality": {
+        "ax": {
+          "hf_energy_share": 0.1884,
+          "drift_per_s": -0.00103,
+          "n_outliers_z5": 5
+        },
+        "ay": {
+          "hf_energy_share": 0.0139,
+          "drift_per_s": 0.00064,
+          "n_outliers_z5": 0
+        },
+        "az": {
+          "hf_energy_share": 0.0021,
+          "drift_per_s": -0.00354,
+          "n_outliers_z5": 0
+        },
+        "gx": {
+          "hf_energy_share": 0.0102,
+          "drift_per_s": -0.00091,
+          "n_outliers_z5": 0
+        },
+        "gy": {
+          "hf_energy_share": 0.0037,
+          "drift_per_s": -0.00157,
+          "n_outliers_z5": 0
+        },
+        "gz": {
+          "hf_energy_share": 0.0176,
+          "drift_per_s": -0.00039,
+          "n_outliers_z5": 0
+        }
+      },
+      "asymmetry_LR": 0.0012
+    },
+    {
+      "file": "S07_trial_3.csv",
+      "subject_id": "S07",
+      "condition": 1,
+      "channels_present": [
+        "ax",
+        "ay",
+        "az",
+        "gx",
+        "gy",
+        "gz",
+        "timestamp_s",
+        "heel_strike",
+        "foot"
+      ],
+      "channels_missing": [],
+      "n_rows": 2674,
+      "sampling_rate_hz": 100.0,
+      "duration_s": 26.73,
+      "has_foot_contacts": true,
+      "sensor_position_note": "trunk-mounted IMU (vertical az, 2 peaks/stride)",
+      "n_channels_synced": 6,
+      "n_nan": {
+        "ax": 0,
+        "ay": 0,
+        "az": 0,
+        "gx": 0,
+        "gy": 0,
+        "gz": 0
+      },
+      "n_timestamp_gaps": 0,
+      "max_gap_s": 0.0,
+      "n_nonmonotonic": 0,
+      "n_heel_strikes": 40,
+      "n_left": 20,
+      "n_right": 20,
+      "mean_stride_time_s": 1.334,
+      "stride_time_cv": 0.065,
+      "cadence_spm": 89.9,
+      "stride_reliability": "reliable",
+      "speed_median_m_s": 1.071,
+      "speed_iqr_m_s": 0.074,
+      "speed_strides_ok": 38,
+      "speed_plausible": true,
+      "signal_quality": {
+        "ax": {
+          "hf_energy_share": 0.1163,
+          "drift_per_s": -0.00093,
+          "n_outliers_z5": 2
+        },
+        "ay": {
+          "hf_energy_share": 0.0145,
+          "drift_per_s": 0.00078,
+          "n_outliers_z5": 0
+        },
+        "az": {
+          "hf_energy_share": 0.0022,
+          "drift_per_s": -0.00371,
+          "n_outliers_z5": 0
+        },
+        "gx": {
+          "hf_energy_share": 0.0103,
+          "drift_per_s": -0.001,
+          "n_outliers_z5": 0
+        },
+        "gy": {
+          "hf_energy_share": 0.004,
+          "drift_per_s": -0.00158,
+          "n_outliers_z5": 0
+        },
+        "gz": {
+          "hf_energy_share": 0.0176,
+          "drift_per_s": -0.00031,
+          "n_outliers_z5": 0
+        }
+      },
+      "asymmetry_LR": 0.0039
+    },
+    {
+      "file": "S07_trial_4.csv",
+      "subject_id": "S07",
+      "condition": 1,
+      "channels_present": [
+        "ax",
+        "ay",
+        "az",
+        "gx",
+        "gy",
+        "gz",
+        "timestamp_s",
+        "heel_strike",
+        "foot"
+      ],
+      "channels_missing": [],
+      "n_rows": 2657,
+      "sampling_rate_hz": 100.0,
+      "duration_s": 26.56,
+      "has_foot_contacts": true,
+      "sensor_position_note": "trunk-mounted IMU (vertical az, 2 peaks/stride)",
+      "n_channels_synced": 6,
+      "n_nan": {
+        "ax": 0,
+        "ay": 0,
+        "az": 0,
+        "gx": 0,
+        "gy": 0,
+        "gz": 0
+      },
+      "n_timestamp_gaps": 0,
+      "max_gap_s": 0.0,
+      "n_nonmonotonic": 0,
+      "n_heel_strikes": 40,
+      "n_left": 20,
+      "n_right": 20,
+      "mean_stride_time_s": 1.333,
+      "stride_time_cv": 0.0588,
+      "cadence_spm": 90.0,
+      "stride_reliability": "reliable",
+      "speed_median_m_s": 1.074,
+      "speed_iqr_m_s": 0.067,
+      "speed_strides_ok": 38,
+      "speed_plausible": true,
+      "signal_quality": {
+        "ax": {
+          "hf_energy_share": 0.121,
+          "drift_per_s": -0.00079,
+          "n_outliers_z5": 4
+        },
+        "ay": {
+          "hf_energy_share": 0.0157,
+          "drift_per_s": 0.00079,
+          "n_outliers_z5": 0
+        },
+        "az": {
+          "hf_energy_share": 0.0021,
+          "drift_per_s": -0.00359,
+          "n_outliers_z5": 0
+        },
+        "gx": {
+          "hf_energy_share": 0.0099,
+          "drift_per_s": -0.00114,
+          "n_outliers_z5": 0
+        },
+        "gy": {
+          "hf_energy_share": 0.004,
+          "drift_per_s": -0.00124,
+          "n_outliers_z5": 0
+        },
+        "gz": {
+          "hf_energy_share": 0.0202,
+          "drift_per_s": -0.0004,
+          "n_outliers_z5": 0
+        }
+      },
+      "asymmetry_LR": 0.0004
+    },
+    {
+      "file": "S08_trial_1.csv",
+      "subject_id": "S08",
+      "condition": 1,
+      "channels_present": [
+        "ax",
+        "ay",
+        "az",
+        "gx",
+        "gy",
+        "gz",
+        "timestamp_s",
+        "heel_strike",
+        "foot"
+      ],
+      "channels_missing": [],
+      "n_rows": 2635,
+      "sampling_rate_hz": 100.0,
+      "duration_s": 26.34,
+      "has_foot_contacts": true,
+      "sensor_position_note": "trunk-mounted IMU (vertical az, 2 peaks/stride)",
+      "n_channels_synced": 6,
+      "n_nan": {
+        "ax": 0,
+        "ay": 0,
+        "az": 0,
+        "gx": 0,
+        "gy": 0,
+        "gz": 0
+      },
+      "n_timestamp_gaps": 0,
+      "max_gap_s": 0.0,
+      "n_nonmonotonic": 0,
+      "n_heel_strikes": 40,
+      "n_left": 20,
+      "n_right": 20,
+      "mean_stride_time_s": 1.323,
+      "stride_time_cv": 0.0612,
+      "cadence_spm": 90.7,
+      "stride_reliability": "reliable",
+      "speed_median_m_s": 1.093,
+      "speed_iqr_m_s": 0.074,
+      "speed_strides_ok": 38,
+      "speed_plausible": true,
+      "signal_quality": {
+        "ax": {
+          "hf_energy_share": 0.0975,
+          "drift_per_s": -0.00103,
+          "n_outliers_z5": 3
+        },
+        "ay": {
+          "hf_energy_share": 0.015,
+          "drift_per_s": 0.00071,
+          "n_outliers_z5": 0
+        },
+        "az": {
+          "hf_energy_share": 0.002,
+          "drift_per_s": -0.00383,
+          "n_outliers_z5": 0
+        },
+        "gx": {
+          "hf_energy_share": 0.0095,
+          "drift_per_s": -0.00104,
+          "n_outliers_z5": 0
+        },
+        "gy": {
+          "hf_energy_share": 0.0043,
+          "drift_per_s": -0.00147,
+          "n_outliers_z5": 0
+        },
+        "gz": {
+          "hf_energy_share": 0.0192,
+          "drift_per_s": -0.00037,
+          "n_outliers_z5": 0
+        }
+      },
+      "asymmetry_LR": 0.0016
+    },
+    {
+      "file": "S08_trial_2.csv",
+      "subject_id": "S08",
+      "condition": 1,
+      "channels_present": [
+        "ax",
+        "ay",
+        "az",
+        "gx",
+        "gy",
+        "gz",
+        "timestamp_s",
+        "heel_strike",
+        "foot"
+      ],
+      "channels_missing": [],
+      "n_rows": 2575,
+      "sampling_rate_hz": 100.0,
+      "duration_s": 25.74,
+      "has_foot_contacts": true,
+      "sensor_position_note": "trunk-mounted IMU (vertical az, 2 peaks/stride)",
+      "n_channels_synced": 6,
+      "n_nan": {
+        "ax": 0,
+        "ay": 0,
+        "az": 0,
+        "gx": 0,
+        "gy": 0,
+        "gz": 0
+      },
+      "n_timestamp_gaps": 0,
+      "max_gap_s": 0.0,
+      "n_nonmonotonic": 0,
+      "n_heel_strikes": 40,
+      "n_left": 20,
+      "n_right": 20,
+      "mean_stride_time_s": 1.285,
+      "stride_time_cv": 0.0805,
+      "cadence_spm": 93.4,
+      "stride_reliability": "reliable",
+      "speed_median_m_s": 1.092,
+      "speed_iqr_m_s": 0.076,
+      "speed_strides_ok": 38,
+      "speed_plausible": true,
+      "signal_quality": {
+        "ax": {
+          "hf_energy_share": 0.0745,
+          "drift_per_s": -0.00099,
+          "n_outliers_z5": 2
+        },
+        "ay": {
+          "hf_energy_share": 0.0142,
+          "drift_per_s": 0.00051,
+          "n_outliers_z5": 0
+        },
+        "az": {
+          "hf_energy_share": 0.0022,
+          "drift_per_s": -0.00399,
+          "n_outliers_z5": 0
+        },
+        "gx": {
+          "hf_energy_share": 0.0109,
+          "drift_per_s": -0.00086,
+          "n_outliers_z5": 0
+        },
+        "gy": {
+          "hf_energy_share": 0.0037,
+          "drift_per_s": -0.00146,
+          "n_outliers_z5": 0
+        },
+        "gz": {
+          "hf_energy_share": 0.0161,
+          "drift_per_s": -0.00064,
+          "n_outliers_z5": 0
+        }
+      },
+      "asymmetry_LR": 0.0016
+    },
+    {
+      "file": "S08_trial_3.csv",
+      "subject_id": "S08",
+      "condition": 1,
+      "channels_present": [
+        "ax",
+        "ay",
+        "az",
+        "gx",
+        "gy",
+        "gz",
+        "timestamp_s",
+        "heel_strike",
+        "foot"
+      ],
+      "channels_missing": [],
+      "n_rows": 2650,
+      "sampling_rate_hz": 100.0,
+      "duration_s": 26.49,
+      "has_foot_contacts": true,
+      "sensor_position_note": "trunk-mounted IMU (vertical az, 2 peaks/stride)",
+      "n_channels_synced": 6,
+      "n_nan": {
+        "ax": 0,
+        "ay": 0,
+        "az": 0,
+        "gx": 0,
+        "gy": 0,
+        "gz": 0
+      },
+      "n_timestamp_gaps": 0,
+      "max_gap_s": 0.0,
+      "n_nonmonotonic": 0,
+      "n_heel_strikes": 40,
+      "n_left": 20,
+      "n_right": 20,
+      "mean_stride_time_s": 1.324,
+      "stride_time_cv": 0.0779,
+      "cadence_spm": 90.6,
+      "stride_reliability": "reliable",
+      "speed_median_m_s": 1.091,
+      "speed_iqr_m_s": 0.082,
+      "speed_strides_ok": 38,
+      "speed_plausible": true,
+      "signal_quality": {
+        "ax": {
+          "hf_energy_share": 0.1037,
+          "drift_per_s": -0.00168,
+          "n_outliers_z5": 5
+        },
+        "ay": {
+          "hf_energy_share": 0.0157,
+          "drift_per_s": 0.00064,
+          "n_outliers_z5": 0
+        },
+        "az": {
+          "hf_energy_share": 0.0023,
+          "drift_per_s": 0.02158,
+          "n_outliers_z5": 0
+        },
+        "gx": {
+          "hf_energy_share": 0.0096,
+          "drift_per_s": -0.00087,
+          "n_outliers_z5": 0
+        },
+        "gy": {
+          "hf_energy_share": 0.0042,
+          "drift_per_s": -0.00147,
+          "n_outliers_z5": 0
+        },
+        "gz": {
+          "hf_energy_share": 0.0198,
+          "drift_per_s": -0.00017,
+          "n_outliers_z5": 0
+        }
+      },
+      "asymmetry_LR": 0.0008
+    },
+    {
+      "file": "S08_trial_4.csv",
+      "subject_id": "S08",
+      "condition": 1,
+      "channels_present": [
+        "ax",
+        "ay",
+        "az",
+        "gx",
+        "gy",
+        "gz",
+        "timestamp_s",
+        "heel_strike",
+        "foot"
+      ],
+      "channels_missing": [],
+      "n_rows": 2615,
+      "sampling_rate_hz": 100.0,
+      "duration_s": 26.14,
+      "has_foot_contacts": true,
+      "sensor_position_note": "trunk-mounted IMU (vertical az, 2 peaks/stride)",
+      "n_channels_synced": 6,
+      "n_nan": {
+        "ax": 0,
+        "ay": 0,
+        "az": 0,
+        "gx": 0,
+        "gy": 0,
+        "gz": 0
+      },
+      "n_timestamp_gaps": 0,
+      "max_gap_s": 0.0,
+      "n_nonmonotonic": 0,
+      "n_heel_strikes": 40,
+      "n_left": 20,
+      "n_right": 20,
+      "mean_stride_time_s": 1.308,
+      "stride_time_cv": 0.0612,
+      "cadence_spm": 91.7,
+      "stride_reliability": "reliable",
+      "speed_median_m_s": 1.095,
+      "speed_iqr_m_s": 0.077,
+      "speed_strides_ok": 38,
+      "speed_plausible": true,
+      "signal_quality": {
+        "ax": {
+          "hf_energy_share": 0.1633,
+          "drift_per_s": -0.00072,
+          "n_outliers_z5": 4
+        },
+        "ay": {
+          "hf_energy_share": 0.0149,
+          "drift_per_s": 0.00073,
+          "n_outliers_z5": 0
+        },
+        "az": {
+          "hf_energy_share": 0.0022,
+          "drift_per_s": -0.00366,
+          "n_outliers_z5": 0
+        },
+        "gx": {
+          "hf_energy_share": 0.0099,
+          "drift_per_s": -0.00079,
+          "n_outliers_z5": 0
+        },
+        "gy": {
+          "hf_energy_share": 0.0041,
+          "drift_per_s": -0.00153,
+          "n_outliers_z5": 0
+        },
+        "gz": {
+          "hf_energy_share": 0.0194,
+          "drift_per_s": -0.00031,
+          "n_outliers_z5": 0
+        }
+      },
+      "asymmetry_LR": 0.0028
+    },
+    {
+      "file": "S09_trial_1.csv",
+      "subject_id": "S09",
+      "condition": 1,
+      "channels_present": [
+        "ax",
+        "ay",
+        "az",
+        "gx",
+        "gy",
+        "gz",
+        "timestamp_s",
+        "heel_strike",
+        "foot"
+      ],
+      "channels_missing": [],
+      "n_rows": 2995,
+      "sampling_rate_hz": 100.0,
+      "duration_s": 29.94,
+      "has_foot_contacts": true,
+      "sensor_position_note": "trunk-mounted IMU (vertical az, 2 peaks/stride)",
+      "n_channels_synced": 6,
+      "n_nan": {
+        "ax": 0,
+        "ay": 0,
+        "az": 0,
+        "gx": 0,
+        "gy": 0,
+        "gz": 0
+      },
+      "n_timestamp_gaps": 0,
+      "max_gap_s": 0.0,
+      "n_nonmonotonic": 0,
+      "n_heel_strikes": 40,
+      "n_left": 20,
+      "n_right": 20,
+      "mean_stride_time_s": 1.487,
+      "stride_time_cv": 0.0491,
+      "cadence_spm": 80.7,
+      "stride_reliability": "reliable",
+      "speed_median_m_s": 1.113,
+      "speed_iqr_m_s": 0.065,
+      "speed_strides_ok": 38,
+      "speed_plausible": true,
+      "signal_quality": {
+        "ax": {
+          "hf_energy_share": 0.0502,
+          "drift_per_s": -0.00117,
+          "n_outliers_z5": 2
+        },
+        "ay": {
+          "hf_energy_share": 0.013,
+          "drift_per_s": 0.00035,
+          "n_outliers_z5": 0
+        },
+        "az": {
+          "hf_energy_share": 0.0021,
+          "drift_per_s": 0.01018,
+          "n_outliers_z5": 0
+        },
+        "gx": {
+          "hf_energy_share": 0.0094,
+          "drift_per_s": -0.00096,
+          "n_outliers_z5": 0
+        },
+        "gy": {
+          "hf_energy_share": 0.0037,
+          "drift_per_s": -0.00119,
+          "n_outliers_z5": 0
+        },
+        "gz": {
+          "hf_energy_share": 0.0175,
+          "drift_per_s": -0.0002,
+          "n_outliers_z5": 0
+        }
+      },
+      "asymmetry_LR": 0.0025
+    },
+    {
+      "file": "S09_trial_2.csv",
+      "subject_id": "S09",
+      "condition": 1,
+      "channels_present": [
+        "ax",
+        "ay",
+        "az",
+        "gx",
+        "gy",
+        "gz",
+        "timestamp_s",
+        "heel_strike",
+        "foot"
+      ],
+      "channels_missing": [],
+      "n_rows": 2868,
+      "sampling_rate_hz": 100.0,
+      "duration_s": 28.97,
+      "has_foot_contacts": true,
+      "sensor_position_note": "trunk-mounted IMU (vertical az, 2 peaks/stride)",
+      "n_channels_synced": 6,
+      "n_nan": {
+        "ax": 0,
+        "ay": 0,
+        "az": 0,
+        "gx": 0,
+        "gy": 0,
+        "gz": 0
+      },
+      "n_timestamp_gaps": 1,
+      "max_gap_s": 0.31,
+      "n_nonmonotonic": 0,
+      "n_heel_strikes": 40,
+      "n_left": 20,
+      "n_right": 20,
+      "mean_stride_time_s": 1.455,
+      "stride_time_cv": 0.0551,
+      "cadence_spm": 82.5,
+      "stride_reliability": "reliable",
+      "speed_median_m_s": 1.113,
+      "speed_iqr_m_s": 0.089,
+      "speed_strides_ok": 38,
+      "speed_plausible": true,
+      "signal_quality": {
+        "ax": {
+          "hf_energy_share": 0.1175,
+          "drift_per_s": -0.00049,
+          "n_outliers_z5": 3
+        },
+        "ay": {
+          "hf_energy_share": 0.0131,
+          "drift_per_s": 0.0004,
+          "n_outliers_z5": 0
+        },
+        "az": {
+          "hf_energy_share": 0.0025,
+          "drift_per_s": -0.00235,
+          "n_outliers_z5": 0
+        },
+        "gx": {
+          "hf_energy_share": 0.0108,
+          "drift_per_s": -0.00099,
+          "n_outliers_z5": 0
+        },
+        "gy": {
+          "hf_energy_share": 0.0039,
+          "drift_per_s": -0.00084,
+          "n_outliers_z5": 0
+        },
+        "gz": {
+          "hf_energy_share": 0.0176,
+          "drift_per_s": -0.00013,
+          "n_outliers_z5": 0
+        }
+      },
+      "asymmetry_LR": 0.004
+    },
+    {
+      "file": "S09_trial_3.csv",
+      "subject_id": "S09",
+      "condition": 1,
+      "channels_present": [
+        "ax",
+        "ay",
+        "az",
+        "gx",
+        "gy",
+        "gz",
+        "timestamp_s",
+        "heel_strike",
+        "foot"
+      ],
+      "channels_missing": [],
+      "n_rows": 2852,
+      "sampling_rate_hz": 100.0,
+      "duration_s": 28.51,
+      "has_foot_contacts": true,
+      "sensor_position_note": "trunk-mounted IMU (vertical az, 2 peaks/stride)",
+      "n_channels_synced": 6,
+      "n_nan": {
+        "ax": 0,
+        "ay": 0,
+        "az": 0,
+        "gx": 0,
+        "gy": 0,
+        "gz": 0
+      },
+      "n_timestamp_gaps": 0,
+      "max_gap_s": 0.0,
+      "n_nonmonotonic": 0,
+      "n_heel_strikes": 40,
+      "n_left": 20,
+      "n_right": 20,
+      "mean_stride_time_s": 1.427,
+      "stride_time_cv": 0.0541,
+      "cadence_spm": 84.1,
+      "stride_reliability": "reliable",
+      "speed_median_m_s": 1.117,
+      "speed_iqr_m_s": 0.071,
+      "speed_strides_ok": 38,
+      "speed_plausible": true,
+      "signal_quality": {
+        "ax": {
+          "hf_energy_share": 0.0639,
+          "drift_per_s": -0.00098,
+          "n_outliers_z5": 2
+        },
+        "ay": {
+          "hf_energy_share": 0.0145,
+          "drift_per_s": 0.00065,
+          "n_outliers_z5": 0
+        },
+        "az": {
+          "hf_energy_share": 0.0021,
+          "drift_per_s": -0.00296,
+          "n_outliers_z5": 0
+        },
+        "gx": {
+          "hf_energy_share": 0.0093,
+          "drift_per_s": -0.00084,
+          "n_outliers_z5": 0
+        },
+        "gy": {
+          "hf_energy_share": 0.004,
+          "drift_per_s": -0.0013,
+          "n_outliers_z5": 0
+        },
+        "gz": {
+          "hf_energy_share": 0.0176,
+          "drift_per_s": -0.00026,
+          "n_outliers_z5": 0
+        }
+      },
+      "asymmetry_LR": 0.0037
+    },
+    {
+      "file": "S09_trial_4.csv",
+      "subject_id": "S09",
+      "condition": 1,
+      "channels_present": [
+        "ax",
+        "ay",
+        "az",
+        "gx",
+        "gy",
+        "gz",
+        "timestamp_s",
+        "heel_strike",
+        "foot"
+      ],
+      "channels_missing": [],
+      "n_rows": 2893,
+      "sampling_rate_hz": 100.0,
+      "duration_s": 29.22,
+      "has_foot_contacts": true,
+      "sensor_position_note": "trunk-mounted IMU (vertical az, 2 peaks/stride)",
+      "n_channels_synced": 6,
+      "n_nan": {
+        "ax": 0,
+        "ay": 0,
+        "az": 0,
+        "gx": 0,
+        "gy": 0,
+        "gz": 0
+      },
+      "n_timestamp_gaps": 1,
+      "max_gap_s": 0.31,
+      "n_nonmonotonic": 0,
+      "n_heel_strikes": 40,
+      "n_left": 20,
+      "n_right": 20,
+      "mean_stride_time_s": 1.461,
+      "stride_time_cv": 0.0625,
+      "cadence_spm": 82.1,
+      "stride_reliability": "reliable",
+      "speed_median_m_s": 1.112,
+      "speed_iqr_m_s": 0.093,
+      "speed_strides_ok": 38,
+      "speed_plausible": true,
+      "signal_quality": {
+        "ax": {
+          "hf_energy_share": 0.0696,
+          "drift_per_s": -0.00108,
+          "n_outliers_z5": 3
+        },
+        "ay": {
+          "hf_energy_share": 0.0133,
+          "drift_per_s": 0.00051,
+          "n_outliers_z5": 0
+        },
+        "az": {
+          "hf_energy_share": 0.0028,
+          "drift_per_s": -0.00326,
+          "n_outliers_z5": 0
+        },
+        "gx": {
+          "hf_energy_share": 0.0105,
+          "drift_per_s": -0.00075,
+          "n_outliers_z5": 0
+        },
+        "gy": {
+          "hf_energy_share": 0.004,
+          "drift_per_s": -0.00133,
+          "n_outliers_z5": 0
+        },
+        "gz": {
+          "hf_energy_share": 0.0171,
+          "drift_per_s": -5e-05,
+          "n_outliers_z5": 0
+        }
+      },
+      "asymmetry_LR": 0.0025
+    },
+    {
+      "file": "S10_trial_1.csv",
+      "subject_id": "S10",
+      "condition": 1,
+      "channels_present": [
+        "ax",
+        "ay",
+        "az",
+        "gx",
+        "gy",
+        "gz",
+        "timestamp_s",
+        "heel_strike",
+        "foot"
+      ],
+      "channels_missing": [],
+      "n_rows": 2510,
+      "sampling_rate_hz": 100.0,
+      "duration_s": 25.39,
+      "has_foot_contacts": true,
+      "sensor_position_note": "trunk-mounted IMU (vertical az, 2 peaks/stride)",
+      "n_channels_synced": 6,
+      "n_nan": {
+        "ax": 0,
+        "ay": 0,
+        "az": 0,
+        "gx": 0,
+        "gy": 0,
+        "gz": 0
+      },
+      "n_timestamp_gaps": 1,
+      "max_gap_s": 0.31,
+      "n_nonmonotonic": 0,
+      "n_heel_strikes": 39,
+      "n_left": 20,
+      "n_right": 19,
+      "mean_stride_time_s": 1.307,
+      "stride_time_cv": 0.1708,
+      "cadence_spm": 91.8,
+      "stride_reliability": "check",
+      "speed_median_m_s": 1.142,
+      "speed_iqr_m_s": 0.09,
+      "speed_strides_ok": 37,
+      "speed_plausible": true,
+      "signal_quality": {
+        "ax": {
+          "hf_energy_share": 0.166,
+          "drift_per_s": -0.00105,
+          "n_outliers_z5": 4
+        },
+        "ay": {
+          "hf_energy_share": 0.0141,
+          "drift_per_s": 0.00095,
+          "n_outliers_z5": 0
+        },
+        "az": {
+          "hf_energy_share": 0.0026,
+          "drift_per_s": -0.00471,
+          "n_outliers_z5": 0
+        },
+        "gx": {
+          "hf_energy_share": 0.0118,
+          "drift_per_s": 4e-05,
+          "n_outliers_z5": 0
+        },
+        "gy": {
+          "hf_energy_share": 0.0041,
+          "drift_per_s": -0.00188,
+          "n_outliers_z5": 0
+        },
+        "gz": {
+          "hf_energy_share": 0.0178,
+          "drift_per_s": 7e-05,
+          "n_outliers_z5": 0
+        }
+      },
+      "asymmetry_LR": 0.0532
+    },
+    {
+      "file": "S10_trial_2.csv",
+      "subject_id": "S10",
+      "condition": 1,
+      "channels_present": [
+        "ax",
+        "ay",
+        "az",
+        "gx",
+        "gy",
+        "gz",
+        "timestamp_s",
+        "heel_strike",
+        "foot"
+      ],
+      "channels_missing": [],
+      "n_rows": 2579,
+      "sampling_rate_hz": 100.0,
+      "duration_s": 25.78,
+      "has_foot_contacts": true,
+      "sensor_position_note": "trunk-mounted IMU (vertical az, 2 peaks/stride)",
+      "n_channels_synced": 6,
+      "n_nan": {
+        "ax": 0,
+        "ay": 0,
+        "az": 0,
+        "gx": 0,
+        "gy": 0,
+        "gz": 0
+      },
+      "n_timestamp_gaps": 0,
+      "max_gap_s": 0.0,
+      "n_nonmonotonic": 0,
+      "n_heel_strikes": 40,
+      "n_left": 20,
+      "n_right": 20,
+      "mean_stride_time_s": 1.288,
+      "stride_time_cv": 0.0487,
+      "cadence_spm": 93.2,
+      "stride_reliability": "reliable",
+      "speed_median_m_s": 1.137,
+      "speed_iqr_m_s": 0.059,
+      "speed_strides_ok": 38,
+      "speed_plausible": true,
+      "signal_quality": {
+        "ax": {
+          "hf_energy_share": 0.1087,
+          "drift_per_s": -0.00107,
+          "n_outliers_z5": 2
+        },
+        "ay": {
+          "hf_energy_share": 0.0157,
+          "drift_per_s": 0.00069,
+          "n_outliers_z5": 0
+        },
+        "az": {
+          "hf_energy_share": 0.0021,
+          "drift_per_s": 0.02093,
+          "n_outliers_z5": 0
+        },
+        "gx": {
+          "hf_energy_share": 0.0104,
+          "drift_per_s": -0.00097,
+          "n_outliers_z5": 0
+        },
+        "gy": {
+          "hf_energy_share": 0.004,
+          "drift_per_s": -0.0015,
+          "n_outliers_z5": 0
+        },
+        "gz": {
+          "hf_energy_share": 0.0192,
+          "drift_per_s": -0.00062,
+          "n_outliers_z5": 0
+        }
+      },
+      "asymmetry_LR": 0.0012
+    },
+    {
+      "file": "S10_trial_3.csv",
+      "subject_id": "S10",
+      "condition": 1,
+      "channels_present": [
+        "ax",
+        "ay",
+        "az",
+        "gx",
+        "gy",
+        "gz",
+        "timestamp_s",
+        "heel_strike",
+        "foot"
+      ],
+      "channels_missing": [],
+      "n_rows": 2592,
+      "sampling_rate_hz": 100.0,
+      "duration_s": 25.91,
+      "has_foot_contacts": true,
+      "sensor_position_note": "trunk-mounted IMU (vertical az, 2 peaks/stride)",
+      "n_channels_synced": 6,
+      "n_nan": {
+        "ax": 0,
+        "ay": 0,
+        "az": 0,
+        "gx": 0,
+        "gy": 0,
+        "gz": 0
+      },
+      "n_timestamp_gaps": 0,
+      "max_gap_s": 0.0,
+      "n_nonmonotonic": 0,
+      "n_heel_strikes": 40,
+      "n_left": 20,
+      "n_right": 20,
+      "mean_stride_time_s": 1.296,
+      "stride_time_cv": 0.049,
+      "cadence_spm": 92.6,
+      "stride_reliability": "reliable",
+      "speed_median_m_s": 1.139,
+      "speed_iqr_m_s": 0.061,
+      "speed_strides_ok": 38,
+      "speed_plausible": true,
+      "signal_quality": {
+        "ax": {
+          "hf_energy_share": 0.0834,
+          "drift_per_s": -0.00127,
+          "n_outliers_z5": 2
+        },
+        "ay": {
+          "hf_energy_share": 0.0146,
+          "drift_per_s": 0.00095,
+          "n_outliers_z5": 0
+        },
+        "az": {
+          "hf_energy_share": 0.0022,
+          "drift_per_s": 0.00961,
+          "n_outliers_z5": 0
+        },
+        "gx": {
+          "hf_energy_share": 0.0101,
+          "drift_per_s": -0.00089,
+          "n_outliers_z5": 0
+        },
+        "gy": {
+          "hf_energy_share": 0.0043,
+          "drift_per_s": -0.00145,
+          "n_outliers_z5": 0
+        },
+        "gz": {
+          "hf_energy_share": 0.019,
+          "drift_per_s": -0.00018,
+          "n_outliers_z5": 0
+        }
+      },
+      "asymmetry_LR": 0.0024
+    },
+    {
+      "file": "S10_trial_4.csv",
+      "subject_id": "S10",
+      "condition": 1,
+      "channels_present": [
+        "ax",
+        "ay",
+        "az",
+        "gx",
+        "gy",
+        "gz",
+        "timestamp_s",
+        "heel_strike",
+        "foot"
+      ],
+      "channels_missing": [],
+      "n_rows": 2526,
+      "sampling_rate_hz": 100.0,
+      "duration_s": 25.55,
+      "has_foot_contacts": true,
+      "sensor_position_note": "trunk-mounted IMU (vertical az, 2 peaks/stride)",
+      "n_channels_synced": 6,
+      "n_nan": {
+        "ax": 0,
+        "ay": 0,
+        "az": 0,
+        "gx": 0,
+        "gy": 0,
+        "gz": 0
+      },
+      "n_timestamp_gaps": 1,
+      "max_gap_s": 0.31,
+      "n_nonmonotonic": 0,
+      "n_heel_strikes": 39,
+      "n_left": 20,
+      "n_right": 19,
+      "mean_stride_time_s": 1.315,
+      "stride_time_cv": 0.1594,
+      "cadence_spm": 91.2,
+      "stride_reliability": "check",
+      "speed_median_m_s": 1.139,
+      "speed_iqr_m_s": 0.091,
+      "speed_strides_ok": 37,
+      "speed_plausible": true,
+      "signal_quality": {
+        "ax": {
+          "hf_energy_share": 0.2219,
+          "drift_per_s": -0.0018,
+          "n_outliers_z5": 5
+        },
+        "ay": {
+          "hf_energy_share": 0.0145,
+          "drift_per_s": 0.00078,
+          "n_outliers_z5": 0
+        },
+        "az": {
+          "hf_energy_share": 0.0022,
+          "drift_per_s": 0.01312,
+          "n_outliers_z5": 0
+        },
+        "gx": {
+          "hf_energy_share": 0.0108,
+          "drift_per_s": -0.00076,
+          "n_outliers_z5": 0
+        },
+        "gy": {
+          "hf_energy_share": 0.0036,
+          "drift_per_s": -0.00149,
+          "n_outliers_z5": 0
+        },
+        "gz": {
+          "hf_energy_share": 0.0175,
+          "drift_per_s": -0.00031,
+          "n_outliers_z5": 0
+        }
+      },
+      "asymmetry_LR": 0.0524
+    },
+    {
+      "file": "S11_trial_1.csv",
+      "subject_id": "S11",
+      "condition": 1,
+      "channels_present": [
+        "ax",
+        "ay",
+        "az",
+        "gx",
+        "gy",
+        "gz",
+        "timestamp_s",
+        "heel_strike",
+        "foot"
+      ],
+      "channels_missing": [],
+      "n_rows": 2985,
+      "sampling_rate_hz": 100.0,
+      "duration_s": 29.84,
+      "has_foot_contacts": true,
+      "sensor_position_note": "trunk-mounted IMU (vertical az, 2 peaks/stride)",
+      "n_channels_synced": 6,
+      "n_nan": {
+        "ax": 0,
+        "ay": 0,
+        "az": 0,
+        "gx": 0,
+        "gy": 0,
+        "gz": 0
+      },
+      "n_timestamp_gaps": 0,
+      "max_gap_s": 0.0,
+      "n_nonmonotonic": 0,
+      "n_heel_strikes": 40,
+      "n_left": 20,
+      "n_right": 20,
+      "mean_stride_time_s": 1.495,
+      "stride_time_cv": 0.063,
+      "cadence_spm": 80.3,
+      "stride_reliability": "reliable",
+      "speed_median_m_s": 1.046,
+      "speed_iqr_m_s": 0.05,
+      "speed_strides_ok": 38,
+      "speed_plausible": true,
+      "signal_quality": {
+        "ax": {
+          "hf_energy_share": 0.1069,
+          "drift_per_s": -0.00131,
+          "n_outliers_z5": 5
+        },
+        "ay": {
+          "hf_energy_share": 0.0136,
+          "drift_per_s": 0.00069,
+          "n_outliers_z5": 0
+        },
+        "az": {
+          "hf_energy_share": 0.0021,
+          "drift_per_s": 0.02212,
+          "n_outliers_z5": 0
+        },
+        "gx": {
+          "hf_energy_share": 0.0093,
+          "drift_per_s": -0.00079,
+          "n_outliers_z5": 0
+        },
+        "gy": {
+          "hf_energy_share": 0.0039,
+          "drift_per_s": -0.00135,
+          "n_outliers_z5": 0
+        },
+        "gz": {
+          "hf_energy_share": 0.018,
+          "drift_per_s": -0.00037,
+          "n_outliers_z5": 0
+        }
+      },
+      "asymmetry_LR": 0.0014
+    },
+    {
+      "file": "S11_trial_2.csv",
+      "subject_id": "S11",
+      "condition": 1,
+      "channels_present": [
+        "ax",
+        "ay",
+        "az",
+        "gx",
+        "gy",
+        "gz",
+        "timestamp_s",
+        "heel_strike",
+        "foot"
+      ],
+      "channels_missing": [],
+      "n_rows": 2826,
+      "sampling_rate_hz": 100.0,
+      "duration_s": 28.55,
+      "has_foot_contacts": true,
+      "sensor_position_note": "trunk-mounted IMU (vertical az, 2 peaks/stride)",
+      "n_channels_synced": 6,
+      "n_nan": {
+        "ax": 0,
+        "ay": 0,
+        "az": 0,
+        "gx": 0,
+        "gy": 0,
+        "gz": 0
+      },
+      "n_timestamp_gaps": 1,
+      "max_gap_s": 0.31,
+      "n_nonmonotonic": 0,
+      "n_heel_strikes": 40,
+      "n_left": 20,
+      "n_right": 20,
+      "mean_stride_time_s": 1.425,
+      "stride_time_cv": 0.0536,
+      "cadence_spm": 84.2,
+      "stride_reliability": "reliable",
+      "speed_median_m_s": 1.047,
+      "speed_iqr_m_s": 0.076,
+      "speed_strides_ok": 38,
+      "speed_plausible": true,
+      "signal_quality": {
+        "ax": {
+          "hf_energy_share": 0.1555,
+          "drift_per_s": -0.00084,
+          "n_outliers_z5": 4
+        },
+        "ay": {
+          "hf_energy_share": 0.0148,
+          "drift_per_s": 0.00049,
+          "n_outliers_z5": 0
+        },
+        "az": {
+          "hf_energy_share": 0.0039,
+          "drift_per_s": 0.01525,
+          "n_outliers_z5": 0
+        },
+        "gx": {
+          "hf_energy_share": 0.0102,
+          "drift_per_s": -0.00078,
+          "n_outliers_z5": 0
+        },
+        "gy": {
+          "hf_energy_share": 0.0052,
+          "drift_per_s": -0.00166,
+          "n_outliers_z5": 0
+        },
+        "gz": {
+          "hf_energy_share": 0.0178,
+          "drift_per_s": -0.00024,
+          "n_outliers_z5": 0
+        }
+      },
+      "asymmetry_LR": 0.0011
+    },
+    {
+      "file": "S11_trial_3.csv",
+      "subject_id": "S11",
+      "condition": 1,
+      "channels_present": [
+        "ax",
+        "ay",
+        "az",
+        "gx",
+        "gy",
+        "gz",
+        "timestamp_s",
+        "heel_strike",
+        "foot"
+      ],
+      "channels_missing": [],
+      "n_rows": 2936,
+      "sampling_rate_hz": 100.0,
+      "duration_s": 29.35,
+      "has_foot_contacts": true,
+      "sensor_position_note": "trunk-mounted IMU (vertical az, 2 peaks/stride)",
+      "n_channels_synced": 6,
+      "n_nan": {
+        "ax": 0,
+        "ay": 0,
+        "az": 0,
+        "gx": 0,
+        "gy": 0,
+        "gz": 0
+      },
+      "n_timestamp_gaps": 0,
+      "max_gap_s": 0.0,
+      "n_nonmonotonic": 0,
+      "n_heel_strikes": 40,
+      "n_left": 20,
+      "n_right": 20,
+      "mean_stride_time_s": 1.464,
+      "stride_time_cv": 0.0488,
+      "cadence_spm": 82.0,
+      "stride_reliability": "reliable",
+      "speed_median_m_s": 1.05,
+      "speed_iqr_m_s": 0.052,
+      "speed_strides_ok": 38,
+      "speed_plausible": true,
+      "signal_quality": {
+        "ax": {
+          "hf_energy_share": 0.1296,
+          "drift_per_s": -0.00073,
+          "n_outliers_z5": 3
+        },
+        "ay": {
+          "hf_energy_share": 0.0133,
+          "drift_per_s": 0.00071,
+          "n_outliers_z5": 0
+        },
+        "az": {
+          "hf_energy_share": 0.0023,
+          "drift_per_s": -0.00327,
+          "n_outliers_z5": 0
+        },
+        "gx": {
+          "hf_energy_share": 0.0096,
+          "drift_per_s": -0.00092,
+          "n_outliers_z5": 0
+        },
+        "gy": {
+          "hf_energy_share": 0.0037,
+          "drift_per_s": -0.0013,
+          "n_outliers_z5": 0
+        },
+        "gz": {
+          "hf_energy_share": 0.0182,
+          "drift_per_s": -0.00044,
+          "n_outliers_z5": 0
+        }
+      },
+      "asymmetry_LR": 0.0022
+    },
+    {
+      "file": "S11_trial_4.csv",
+      "subject_id": "S11",
+      "condition": 1,
+      "channels_present": [
+        "ax",
+        "ay",
+        "az",
+        "gx",
+        "gy",
+        "gz",
+        "timestamp_s",
+        "heel_strike",
+        "foot"
+      ],
+      "channels_missing": [],
+      "n_rows": 2935,
+      "sampling_rate_hz": 100.0,
+      "duration_s": 29.34,
+      "has_foot_contacts": true,
+      "sensor_position_note": "trunk-mounted IMU (vertical az, 2 peaks/stride)",
+      "n_channels_synced": 6,
+      "n_nan": {
+        "ax": 0,
+        "ay": 0,
+        "az": 0,
+        "gx": 0,
+        "gy": 0,
+        "gz": 0
+      },
+      "n_timestamp_gaps": 0,
+      "max_gap_s": 0.0,
+      "n_nonmonotonic": 0,
+      "n_heel_strikes": 40,
+      "n_left": 20,
+      "n_right": 20,
+      "mean_stride_time_s": 1.466,
+      "stride_time_cv": 0.0572,
+      "cadence_spm": 81.9,
+      "stride_reliability": "reliable",
+      "speed_median_m_s": 1.045,
+      "speed_iqr_m_s": 0.056,
+      "speed_strides_ok": 38,
+      "speed_plausible": true,
+      "signal_quality": {
+        "ax": {
+          "hf_energy_share": 0.1296,
+          "drift_per_s": -0.00073,
+          "n_outliers_z5": 5
+        },
+        "ay": {
+          "hf_energy_share": 0.0136,
+          "drift_per_s": 0.00067,
+          "n_outliers_z5": 0
+        },
+        "az": {
+          "hf_energy_share": 0.0021,
+          "drift_per_s": -0.00359,
+          "n_outliers_z5": 0
+        },
+        "gx": {
+          "hf_energy_share": 0.0097,
+          "drift_per_s": -0.00071,
+          "n_outliers_z5": 0
+        },
+        "gy": {
+          "hf_energy_share": 0.0038,
+          "drift_per_s": -0.00129,
+          "n_outliers_z5": 0
+        },
+        "gz": {
+          "hf_energy_share": 0.0173,
+          "drift_per_s": -0.00012,
+          "n_outliers_z5": 0
+        }
+      },
+      "asymmetry_LR": 0.0004
+    },
+    {
+      "file": "S12_trial_1.csv",
+      "subject_id": "S12",
+      "condition": 1,
+      "channels_present": [
+        "ax",
+        "ay",
+        "az",
+        "gx",
+        "gy",
+        "gz",
+        "timestamp_s",
+        "heel_strike",
+        "foot"
+      ],
+      "channels_missing": [],
+      "n_rows": 2847,
+      "sampling_rate_hz": 100.0,
+      "duration_s": 28.46,
+      "has_foot_contacts": true,
+      "sensor_position_note": "trunk-mounted IMU (vertical az, 2 peaks/stride)",
+      "n_channels_synced": 6,
+      "n_nan": {
+        "ax": 0,
+        "ay": 0,
+        "az": 0,
+        "gx": 0,
+        "gy": 0,
+        "gz": 0
+      },
+      "n_timestamp_gaps": 0,
+      "max_gap_s": 0.0,
+      "n_nonmonotonic": 0,
+      "n_heel_strikes": 40,
+      "n_left": 20,
+      "n_right": 20,
+      "mean_stride_time_s": 1.415,
+      "stride_time_cv": 0.0693,
+      "cadence_spm": 84.8,
+      "stride_reliability": "reliable",
+      "speed_median_m_s": 1.119,
+      "speed_iqr_m_s": 0.051,
+      "speed_strides_ok": 38,
+      "speed_plausible": true,
+      "signal_quality": {
+        "ax": {
+          "hf_energy_share": 0.1367,
+          "drift_per_s": -0.00098,
+          "n_outliers_z5": 5
+        },
+        "ay": {
+          "hf_energy_share": 0.014,
+          "drift_per_s": 0.00067,
+          "n_outliers_z5": 0
+        },
+        "az": {
+          "hf_energy_share": 0.0021,
+          "drift_per_s": -0.00354,
+          "n_outliers_z5": 0
+        },
+        "gx": {
+          "hf_energy_share": 0.0095,
+          "drift_per_s": -0.0008,
+          "n_outliers_z5": 0
+        },
+        "gy": {
+          "hf_energy_share": 0.0037,
+          "drift_per_s": -0.00134,
+          "n_outliers_z5": 0
+        },
+        "gz": {
+          "hf_energy_share": 0.0201,
+          "drift_per_s": -0.0003,
+          "n_outliers_z5": 0
+        }
+      },
+      "asymmetry_LR": 0.0007
+    },
+    {
+      "file": "S12_trial_2.csv",
+      "subject_id": "S12",
+      "condition": 1,
+      "channels_present": [
+        "ax",
+        "ay",
+        "az",
+        "gx",
+        "gy",
+        "gz",
+        "timestamp_s",
+        "heel_strike",
+        "foot"
+      ],
+      "channels_missing": [],
+      "n_rows": 2818,
+      "sampling_rate_hz": 100.0,
+      "duration_s": 28.17,
+      "has_foot_contacts": true,
+      "sensor_position_note": "trunk-mounted IMU (vertical az, 2 peaks/stride)",
+      "n_channels_synced": 6,
+      "n_nan": {
+        "ax": 0,
+        "ay": 0,
+        "az": 0,
+        "gx": 0,
+        "gy": 0,
+        "gz": 0
+      },
+      "n_timestamp_gaps": 0,
+      "max_gap_s": 0.0,
+      "n_nonmonotonic": 0,
+      "n_heel_strikes": 40,
+      "n_left": 20,
+      "n_right": 20,
+      "mean_stride_time_s": 1.418,
+      "stride_time_cv": 0.0791,
+      "cadence_spm": 84.6,
+      "stride_reliability": "reliable",
+      "speed_median_m_s": 1.115,
+      "speed_iqr_m_s": 0.055,
+      "speed_strides_ok": 38,
+      "speed_plausible": true,
+      "signal_quality": {
+        "ax": {
+          "hf_energy_share": 0.1707,
+          "drift_per_s": -0.00102,
+          "n_outliers_z5": 5
+        },
+        "ay": {
+          "hf_energy_share": 0.0138,
+          "drift_per_s": 0.00055,
+          "n_outliers_z5": 0
+        },
+        "az": {
+          "hf_energy_share": 0.0021,
+          "drift_per_s": 0.02641,
+          "n_outliers_z5": 0
+        },
+        "gx": {
+          "hf_energy_share": 0.0092,
+          "drift_per_s": -0.00091,
+          "n_outliers_z5": 0
+        },
+        "gy": {
+          "hf_energy_share": 0.0038,
+          "drift_per_s": -0.00142,
+          "n_outliers_z5": 0
+        },
+        "gz": {
+          "hf_energy_share": 0.0175,
+          "drift_per_s": -0.00027,
+          "n_outliers_z5": 0
+        }
+      },
+      "asymmetry_LR": 0.0004
+    },
+    {
+      "file": "S12_trial_3.csv",
+      "subject_id": "S12",
+      "condition": 1,
+      "channels_present": [
+        "ax",
+        "ay",
+        "az",
+        "gx",
+        "gy",
+        "gz",
+        "timestamp_s",
+        "heel_strike",
+        "foot"
+      ],
+      "channels_missing": [],
+      "n_rows": 2874,
+      "sampling_rate_hz": 100.0,
+      "duration_s": 28.73,
+      "has_foot_contacts": true,
+      "sensor_position_note": "trunk-mounted IMU (vertical az, 2 peaks/stride)",
+      "n_channels_synced": 6,
+      "n_nan": {
+        "ax": 0,
+        "ay": 0,
+        "az": 0,
+        "gx": 0,
+        "gy": 0,
+        "gz": 0
+      },
+      "n_timestamp_gaps": 0,
+      "max_gap_s": 0.0,
+      "n_nonmonotonic": 0,
+      "n_heel_strikes": 40,
+      "n_left": 20,
+      "n_right": 20,
+      "mean_stride_time_s": 1.444,
+      "stride_time_cv": 0.0744,
+      "cadence_spm": 83.1,
+      "stride_reliability": "reliable",
+      "speed_median_m_s": 1.119,
+      "speed_iqr_m_s": 0.056,
+      "speed_strides_ok": 38,
+      "speed_plausible": true,
+      "signal_quality": {
+        "ax": {
+          "hf_energy_share": 0.0798,
+          "drift_per_s": -0.00091,
+          "n_outliers_z5": 2
+        },
+        "ay": {
+          "hf_energy_share": 0.0136,
+          "drift_per_s": 0.00045,
+          "n_outliers_z5": 0
+        },
+        "az": {
+          "hf_energy_share": 0.0022,
+          "drift_per_s": -0.00382,
+          "n_outliers_z5": 0
+        },
+        "gx": {
+          "hf_energy_share": 0.0095,
+          "drift_per_s": -0.00092,
+          "n_outliers_z5": 0
+        },
+        "gy": {
+          "hf_energy_share": 0.0038,
+          "drift_per_s": -0.0013,
+          "n_outliers_z5": 0
+        },
+        "gz": {
+          "hf_energy_share": 0.0185,
+          "drift_per_s": -0.00038,
+          "n_outliers_z5": 0
+        }
+      },
+      "asymmetry_LR": 0.0015
+    },
+    {
+      "file": "S12_trial_4.csv",
+      "subject_id": "S12",
+      "condition": 1,
+      "channels_present": [
+        "ax",
+        "ay",
+        "az",
+        "gx",
+        "gy",
+        "gz",
+        "timestamp_s",
+        "heel_strike",
+        "foot"
+      ],
+      "channels_missing": [],
+      "n_rows": 2851,
+      "sampling_rate_hz": 100.0,
+      "duration_s": 28.5,
+      "has_foot_contacts": true,
+      "sensor_position_note": "trunk-mounted IMU (vertical az, 2 peaks/stride)",
+      "n_channels_synced": 6,
+      "n_nan": {
+        "ax": 0,
+        "ay": 0,
+        "az": 0,
+        "gx": 0,
+        "gy": 0,
+        "gz": 0
+      },
+      "n_timestamp_gaps": 0,
+      "max_gap_s": 0.0,
+      "n_nonmonotonic": 0,
+      "n_heel_strikes": 40,
+      "n_left": 20,
+      "n_right": 20,
+      "mean_stride_time_s": 1.429,
+      "stride_time_cv": 0.0716,
+      "cadence_spm": 84.0,
+      "stride_reliability": "reliable",
+      "speed_median_m_s": 1.121,
+      "speed_iqr_m_s": 0.049,
+      "speed_strides_ok": 38,
+      "speed_plausible": true,
+      "signal_quality": {
+        "ax": {
+          "hf_energy_share": 0.1554,
+          "drift_per_s": -0.00061,
+          "n_outliers_z5": 5
+        },
+        "ay": {
+          "hf_energy_share": 0.013,
+          "drift_per_s": 0.00067,
+          "n_outliers_z5": 0
+        },
+        "az": {
+          "hf_energy_share": 0.0021,
+          "drift_per_s": -0.00336,
+          "n_outliers_z5": 0
+        },
+        "gx": {
+          "hf_energy_share": 0.0095,
+          "drift_per_s": -0.00081,
+          "n_outliers_z5": 0
+        },
+        "gy": {
+          "hf_energy_share": 0.0037,
+          "drift_per_s": -0.00129,
+          "n_outliers_z5": 0
+        },
+        "gz": {
+          "hf_energy_share": 0.0183,
+          "drift_per_s": -0.00039,
+          "n_outliers_z5": 0
+        }
+      },
+      "asymmetry_LR": 0.0026
+    }
+  ],
+  "demographics": {
+    "n_subjects": 12,
+    "missing": {
+      "age": 0,
+      "sex": 0,
+      "height_m": 0,
+      "weight_kg": 2
+    },
+    "age_mean_sd": [
+      65.2,
+      6.2
+    ],
+    "sex_counts": {
+      "F": 7,
+      "M": 5
+    },
+    "height_mean_sd": [
+      1.62,
+      0.1
+    ],
+    "weight_mean_sd": [
+      69.3,
+      13.0
+    ],
+    "subgroup_comparison": {
+      "age": {
+        "healthy_mean": 63.33,
+        "impaired_mean": 67.17,
+        "diff": 3.83
+      },
+      "height_m": {
+        "healthy_mean": 1.63,
+        "impaired_mean": 1.61,
+        "diff": -0.02
+      },
+      "weight_kg": {
+        "healthy_mean": 66.06,
+        "impaired_mean": 72.62,
+        "diff": 6.56
+      }
+    }
+  }
+}

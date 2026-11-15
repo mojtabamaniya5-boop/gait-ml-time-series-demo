@@ -1,0 +1,29 @@
+{
+  "stride_time_cv": {
+    "condition_coef": 3.6072,
+    "condition_coef_unit": "percentage points",
+    "condition_pvalue": 0.0006,
+    "age_coef": -0.0878,
+    "converged": true,
+    "n_obs": 48
+  },
+  "cadence_spm": {
+    "condition_coef": -19.9481,
+    "condition_coef_unit": "steps/min",
+    "condition_pvalue": 0.0,
+    "age_coef": -0.1159,
+    "converged": true,
+    "n_obs": 48
+  },
+  "bootstrap_stride_time_cv_diff": {
+    "effect": "impaired - healthy mean stride_time_cv",
+    "observed_diff": 0.0327,
+    "bootstrap_mean": 0.0326,
+    "ci_95": [
+      0.0128,
+      0.0525
+    ],
+    "n_boot": 2000,
+    "n_subjects": 12
+  }
+}

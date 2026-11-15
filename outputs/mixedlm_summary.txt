@@ -1,0 +1,38 @@
+===== stride_time_cv_pct ~ condition + age + (1|subject) =====
+             Mixed Linear Model Regression Results
+================================================================
+Model:            MixedLM Dependent Variable: stride_time_cv_pct
+No. Observations: 48      Method:             ML                
+No. Groups:       12      Scale:              11.8322           
+Min. group size:  4       Log-Likelihood:     -127.4712         
+Max. group size:  4       Converged:          Yes               
+Mean group size:  4.0                                           
+------------------------------------------------------------------
+              Coef.    Std.Err.     z      P>|z|   [0.025   0.975]
+------------------------------------------------------------------
+Intercept      9.429      5.631    1.675   0.094   -1.607   20.465
+condition      3.607      1.054    3.423   0.001    1.542    5.673
+age           -0.088      0.088   -0.996   0.319   -0.261    0.085
+Group Var      0.031      0.465                                   
+================================================================
+
+
+===== cadence_spm ~ condition + age + (1|subject) =====
+          Mixed Linear Model Regression Results
+=========================================================
+Model:            MixedLM Dependent Variable: cadence_spm
+No. Observations: 48      Method:             ML         
+No. Groups:       12      Scale:              1.6257     
+Min. group size:  4       Log-Likelihood:     -103.1767  
+Max. group size:  4       Converged:          Yes        
+Mean group size:  4.0                                    
+---------------------------------------------------------
+             Coef.  Std.Err.   z    P>|z|  [0.025  0.975]
+---------------------------------------------------------
+Intercept   114.744   14.600  7.859 0.000  86.127 143.360
+condition   -19.948    2.733 -7.300 0.000 -25.304 -14.592
+age          -0.116    0.229 -0.507 0.612  -0.564   0.332
+Group Var    19.689    7.429                             
+=========================================================
+
+
